@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+\usepackage[myheadings]{fullpage}
+
+% You can remove this line as it's not needed for your purpose.
+%\DeclareUnicodeCharacter{0301}{\hspace{-1ex}\'{ }}
+
+% For figures and stuff
+\usepackage{graphicx, wrapfig, subcaption, setspace, booktabs, wrapfig}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+
+% Maths
+\usepackage{amsmath, amssymb}
+\usepackage{float}
+
+% Language and font encodings
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+
+% Package for headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\usepackage{lastpage}
+
+% setting document style
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{1.5mm}
+\newcommand{\noappendixindent}{
+    \setlength{\parindent}{0pt}
+}
+%% Sets page size and margins
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2cm,right=2cm,marginparwidth=1.5cm]{geometry}
+
+
+% Change for different font sizes and families
+\usepackage[font=small, labelfont=bf]{caption}
+\usepackage{fourier}
+\usepackage[protrusion=true, expansion=true]{microtype}
+
+
+% Bibliography
+\usepackage{bookmark}
+\usepackage[backend=biber, style=nature, sorting=none, doi=false, isbn=false, date=year, url=false]{biblatex}
+
+
+
+% Packages for tables and units
+\usepackage{wrapfig}
+\usepackage{booktabs} % For \toprule, \midrule, and \bottomrule
+\usepackage{siunitx}  % Formats the units and values
+\usepackage[version=4]{mhchem}
+\usepackage{textcomp}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable} % Generates table from .csv
+\pgfplotsset{compat=1.18}
+\usepackage{array} % for new column definition
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{indentfirst}
+\usepackage{wrapfig}
+\usepackage[euler]{textgreek}
+\usepackage{float}
+
+
+% Hyperlink settings
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=green,      
+    urlcolor=teal,
+    citecolor=teal,
+}
+
+\graphicspath{{./thesis_pictures/}}
+\addbibresource{bib/references_lib.bib}
+
+\begin{document}
+\setlength{\parindent}{0.5cm}
+\emergencystretch=1em
+\setstretch{1.15}
+
+\include{content/00_pre/01_Title.tex}
+%\include{content/00_pre/02_Acknowledgement.tex}
+%\include{content/00_pre/03_Abstract.tex}
+
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+
+\newpage
+\include{content/01_main/01_Introduction.tex}
+\include{content/01_main/02_Experimental_Methods.tex}
+\include{content/01_main/03_Results_Discussion.tex}
+%\include{content/01_main/04_Conclusions.tex}
+
+\include{content/02_pubs/02_pubs.tex}
+\include{content/03_post/01_Appendix.tex}
+
+
+
+\end{document}
+

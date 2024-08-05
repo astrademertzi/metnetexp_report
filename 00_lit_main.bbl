@@ -1,0 +1,3789 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{tahon2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f4aa17ab13fa61e38c606fd8ed222385}{%
+           family={Tahon},
+           familyi={T\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5431a1e92bcab1e858c0268451df2771}{%
+           family={Geesink},
+           familyi={G\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3a7f0c79c7b0bbb3f39dda761d1d76ec}{%
+           family={Ettema},
+           familyi={E\bibinitperiod},
+           given={Thijs\bibnamedelima J.G.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{eaef2f7e90c6a32fa7c483bd88e6e85c}
+      \strng{fullhash}{1c0c2d870253b8bb794440f3de4ffdf6}
+      \strng{bibnamehash}{1c0c2d870253b8bb794440f3de4ffdf6}
+      \strng{authorbibnamehash}{1c0c2d870253b8bb794440f3de4ffdf6}
+      \strng{authornamehash}{eaef2f7e90c6a32fa7c483bd88e6e85c}
+      \strng{authorfullhash}{1c0c2d870253b8bb794440f3de4ffdf6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The discovery of the Archaea is a major scientific hallmark of the twentieth century. Since then, important features of their cell biology, physiology, ecology, and diversity have been revealed. Over the course of some 40 years, the diversity of known archaea has expanded from 2 to about 30 phyla comprising over 20,000 species. Most of this archaeal diversity has been revealed by environmental 16S rRNA gene amplicon sequencing surveys using a broad range of universal and targeted primers. Of the few primers that target a large fraction of known archaeal diversity, all display a bias against recently discovered lineages, which limits studies aiming to survey overall archaeal diversity. Induced by genomic exploration of archaeal diversity, and improved phylogenomics approaches, archaeal taxonomic classification has been frequently revised. Due to computational limitations and continued discovery of new lineages, a stable archaeal phylogeny is not yet within reach. Obtaining phylogenetic and taxonomic consensus of archaea should be a high priority for the archaeal research community.}
+      \field{day}{8}
+      \field{issn}{0066-4227, 1545-3251}
+      \field{journaltitle}{Annu. Rev. Microbiol.}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{1}
+      \field{shorttitle}{Expanding {{Archaeal Diversity}} and {{Phylogeny}}}
+      \field{title}{Expanding {{Archaeal Diversity}} and {{Phylogeny}}: {{Past}}, {{Present}}, and {{Future}}}
+      \field{urlday}{3}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{75}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{359\bibrangedash 381}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1146/annurev-micro-040921-050212
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/8VZYDQMD/Tahon et al. - 2021 - Expanding Archaeal Diversity and Phylogeny Past, .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev-micro-040921-050212
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev-micro-040921-050212
+      \endverb
+    \endentry
+    \entry{parks2018}{article}{}
+      \name{author}{7}{}{%
+        {{hash=0cd40947fdf1e0965bc9c80fcffc8ab5}{%
+           family={Parks},
+           familyi={P\bibinitperiod},
+           given={Donovan\bibnamedelima H},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=6903c1556c8db4cf52f41a904e1d60e0}{%
+           family={Chuvochina},
+           familyi={C\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c700cf7e6070f838ba475130811ea2c9}{%
+           family={Waite},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima W},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=018307b60b9c2a4c7f43f0f7b4f85f2b}{%
+           family={Rinke},
+           familyi={R\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d913f195399a6a20c8f081438b68b558}{%
+           family={Skarshewski},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d73477c91a5df9622d460d076d009dad}{%
+           family={Chaumeil},
+           familyi={C\bibinitperiod},
+           given={Pierre-Alain},
+           giveni={P\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=9a3ef6efdf6587c36f86bd5601bfc931}{%
+           family={Hugenholtz},
+           familyi={H\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{fullhash}{3e33c088f81ce441fa90d3eb6ba35362}
+      \strng{bibnamehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{authorbibnamehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{authornamehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{authorfullhash}{3e33c088f81ce441fa90d3eb6ba35362}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1087-0156, 1546-1696}
+      \field{journaltitle}{Nat Biotechnol}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{10}
+      \field{title}{A Standardized Bacterial Taxonomy Based on Genome Phylogeny Substantially Revises the Tree of Life}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{36}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{996\bibrangedash 1004}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/nbt.4229
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/SWV36M87/Parks et al. - 2018 - A standardized bacterial taxonomy based on genome .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nbt.4229
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nbt.4229
+      \endverb
+    \endentry
+    \entry{parks2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0cd40947fdf1e0965bc9c80fcffc8ab5}{%
+           family={Parks},
+           familyi={P\bibinitperiod},
+           given={Donovan\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=6903c1556c8db4cf52f41a904e1d60e0}{%
+           family={Chuvochina},
+           familyi={C\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d73477c91a5df9622d460d076d009dad}{%
+           family={Chaumeil},
+           familyi={C\bibinitperiod},
+           given={Pierre-Alain},
+           giveni={P\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=018307b60b9c2a4c7f43f0f7b4f85f2b}{%
+           family={Rinke},
+           familyi={R\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3bc5ba0b786ab6ecccb35ebbdc287135}{%
+           family={Mussig},
+           familyi={M\bibinitperiod},
+           given={Aaron\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9a3ef6efdf6587c36f86bd5601bfc931}{%
+           family={Hugenholtz},
+           familyi={H\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{fullhash}{41ffe76e2f1a0728c2811edf352ce046}
+      \strng{bibnamehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{authorbibnamehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{authornamehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{authorfullhash}{41ffe76e2f1a0728c2811edf352ce046}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1087-0156, 1546-1696}
+      \field{journaltitle}{Nat Biotechnol}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{A Complete Domain-to-Species Taxonomy for {{Bacteria}} and {{Archaea}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{38}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1079\bibrangedash 1086}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/s41587-020-0501-8
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/HEH9NAIT/Parks et al. - 2020 - A complete domain-to-species taxonomy for Bacteria.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41587-020-0501-8
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41587-020-0501-8
+      \endverb
+    \endentry
+    \entry{parks2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0cd40947fdf1e0965bc9c80fcffc8ab5}{%
+           family={Parks},
+           familyi={P\bibinitperiod},
+           given={Donovan\bibnamedelima H},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=6903c1556c8db4cf52f41a904e1d60e0}{%
+           family={Chuvochina},
+           familyi={C\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=018307b60b9c2a4c7f43f0f7b4f85f2b}{%
+           family={Rinke},
+           familyi={R\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3bc5ba0b786ab6ecccb35ebbdc287135}{%
+           family={Mussig},
+           familyi={M\bibinitperiod},
+           given={Aaron\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d73477c91a5df9622d460d076d009dad}{%
+           family={Chaumeil},
+           familyi={C\bibinitperiod},
+           given={Pierre-Alain},
+           giveni={P\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=9a3ef6efdf6587c36f86bd5601bfc931}{%
+           family={Hugenholtz},
+           familyi={H\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{fullhash}{ba20dfb72d197821a49ee9e34fdcc597}
+      \strng{bibnamehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{authorbibnamehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{authornamehash}{a59f0ddf554461a79154394d3c500724}
+      \strng{authorfullhash}{ba20dfb72d197821a49ee9e34fdcc597}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Genome Taxonomy Database (GTDB; https:// gtdb.ecogenomic.org) provides a phylogenetically consistent and rank normalized genome-based taxonomy for prokaryotic genomes sourced from the NCBI Assembly database. GTDB R06-RS202 spans 254 090 bacterial and 4316 archaeal genomes, a 270\% increase since the introduction of the GTDB in November, 2017. These genomes are organized into 45 555 bacterial and 2339 archaeal species clusters which is a 200\% increase since the integration of species clusters into the GTDB in June, 2019. Here, we explore prokaryotic diversity from the perspective of the GTDB and highlight the importance of metagenome-assembled genomes in expanding available genomic representation. We also discuss improvements to the GTDB website which allow tracking of taxonomic changes, easy assessment of genome assembly quality, and identification of genomes assembled from type material or used as species representatives. Methodological updates and policy changes made since the inception of the GTDB are then described along with the procedure used to update species clusters in the GTDB. We conclude with a discussion on the use of average nucleotide identities as a pragmatic approach for delineating prokaryotic species.}
+      \field{day}{7}
+      \field{issn}{0305-1048, 1362-4962}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{D1}
+      \field{shorttitle}{{{GTDB}}}
+      \field{title}{{{GTDB}}: An Ongoing Census of Bacterial and Archaeal Diversity through a Phylogenetically Consistent, Rank Normalized and Complete Genome-Based Taxonomy}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{50}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{D785\bibrangedash D794}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkab776
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/R8QP3H55/Parks et al. - 2022 - GTDB an ongoing census of bacterial and archaeal .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/nar/article/50/D1/D785/6370255
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/nar/article/50/D1/D785/6370255
+      \endverb
+    \endentry
+    \entry{rinke2021}{article}{}
+      \name{author}{9}{}{%
+        {{hash=018307b60b9c2a4c7f43f0f7b4f85f2b}{%
+           family={Rinke},
+           familyi={R\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6903c1556c8db4cf52f41a904e1d60e0}{%
+           family={Chuvochina},
+           familyi={C\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3bc5ba0b786ab6ecccb35ebbdc287135}{%
+           family={Mussig},
+           familyi={M\bibinitperiod},
+           given={Aaron\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d73477c91a5df9622d460d076d009dad}{%
+           family={Chaumeil},
+           familyi={C\bibinitperiod},
+           given={Pierre-Alain},
+           giveni={P\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=0720e3c45fc3e785a6683773f47d5be4}{%
+           family={Davín},
+           familyi={D\bibinitperiod},
+           given={Adrián\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c700cf7e6070f838ba475130811ea2c9}{%
+           family={Waite},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=ce5f73aa73d373df0afe868dc15bdff3}{%
+           family={Whitman},
+           familyi={W\bibinitperiod},
+           given={William\bibnamedelima B.},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=0cd40947fdf1e0965bc9c80fcffc8ab5}{%
+           family={Parks},
+           familyi={P\bibinitperiod},
+           given={Donovan\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=9a3ef6efdf6587c36f86bd5601bfc931}{%
+           family={Hugenholtz},
+           familyi={H\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1eb0df78901a3eba5e504e5d562dd09}
+      \strng{fullhash}{059407320aadea58ceb07566c38f3249}
+      \strng{bibnamehash}{f1eb0df78901a3eba5e504e5d562dd09}
+      \strng{authorbibnamehash}{f1eb0df78901a3eba5e504e5d562dd09}
+      \strng{authornamehash}{f1eb0df78901a3eba5e504e5d562dd09}
+      \strng{authorfullhash}{059407320aadea58ceb07566c38f3249}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{issn}{2058-5276}
+      \field{journaltitle}{Nat Microbiol}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{7}
+      \field{title}{A Standardized Archaeal Taxonomy for the {{Genome Taxonomy Database}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{946\bibrangedash 959}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1038/s41564-021-00918-8
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/B96CMRLZ/Rinke et al. - 2021 - A standardized archaeal taxonomy for the Genome Ta.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41564-021-00918-8
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41564-021-00918-8
+      \endverb
+    \endentry
+    \entry{williams2017}{article}{}
+      \name{author}{8}{}{%
+        {{hash=961abb192613e4c0ec33dfb96e27c891}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Tom\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e2b2d0a03051348b91dc1add6c854896}{%
+           family={Szöllősi},
+           familyi={S\bibinitperiod},
+           given={Gergely\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f54ed48d73a2e8a0596652934237f4c1}{%
+           family={Spang},
+           familyi={S\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+        {{hash=de585a688985a802c11a8cd53205d32b}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Peter\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=7bb2bc370f0e3b66d5333679d15f0908}{%
+           family={Heaps},
+           familyi={H\bibinitperiod},
+           given={Sarah\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=40423642ab51b329f427bf3afc0487f1}{%
+           family={Boussau},
+           familyi={B\bibinitperiod},
+           given={Bastien},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3a7f0c79c7b0bbb3f39dda761d1d76ec}{%
+           family={Ettema},
+           familyi={E\bibinitperiod},
+           given={Thijs\bibnamedelimb J.\bibnamedelimi G.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=147b790bf6e165a8779797e67776e4c2}{%
+           family={Embley},
+           familyi={E\bibinitperiod},
+           given={T.\bibnamedelimi Martin},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ab23e4fc6b13499753f02d2982fde3a}
+      \strng{fullhash}{3a48d32b2f40e8f75e7c74e3490c6468}
+      \strng{bibnamehash}{8ab23e4fc6b13499753f02d2982fde3a}
+      \strng{authorbibnamehash}{8ab23e4fc6b13499753f02d2982fde3a}
+      \strng{authornamehash}{8ab23e4fc6b13499753f02d2982fde3a}
+      \strng{authorfullhash}{3a48d32b2f40e8f75e7c74e3490c6468}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Significance The Archaea represent a primary domain of cellular life, play major roles in modern-day biogeochemical cycles, and are central to debates about the origin of eukaryotic cells. However, understanding their origins and evolutionary history is challenging because of the immense time spans involved. Here we apply a new approach that harnesses the information in patterns of gene family evolution to find the root of the archaeal tree and to resolve the metabolism of the earliest archaeal cells. Our approach robustly distinguishes between published rooting hypotheses, suggests that the first Archaea were anaerobes that may have fixed carbon via the Wood–Ljungdahl pathway, and quantifies the cumulative impact of horizontal transfer on archaeal genome evolution. , A root for the archaeal tree is essential for reconstructing the metabolism and ecology of early cells and for testing hypotheses that propose that the eukaryotic nuclear lineage originated from within the Archaea; however, published studies based on outgroup rooting disagree regarding the position of the archaeal root. Here we constructed a consensus unrooted archaeal topology using protein concatenation and a multigene supertree method based on 3,242 single gene trees, and then rooted this tree using a recently developed model of genome evolution. This model uses evidence from gene duplications, horizontal transfers, and gene losses contained in 31,236 archaeal gene families to identify the most likely root for the tree. Our analyses support the monophyly of DPANN (Diapherotrites, Parvarchaeota, Aenigmarchaeota, Nanoarchaeota, Nanohaloarchaea), a recently discovered cosmopolitan and genetically diverse lineage, and, in contrast to previous work, place the tree root between DPANN and all other Archaea. The sister group to DPANN comprises the Euryarchaeota and the TACK Archaea, including Lokiarchaeum , which our analyses suggest are monophyletic sister lineages. Metabolic reconstructions on the rooted tree suggest that early Archaea were anaerobes that may have had the ability to reduce CO 2 to acetate via the Wood–Ljungdahl pathway. In contrast to proposals suggesting that genome reduction has been the predominant mode of archaeal evolution, our analyses infer a relatively small-genomed archaeal ancestor that subsequently increased in complexity via gene duplication and horizontal gene transfer.}
+      \field{day}{6}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proc. Natl. Acad. Sci. U.S.A.}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{23}
+      \field{title}{Integrative Modeling of Gene and Genome Evolution Roots the Archaeal Tree of Life}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{114}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1073/pnas.1618463114
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/5U86JY8B/pnas.1618463114.sapp.pdf;/Users/dimitrademertzi/Zotero/storage/TCW24E7S/Williams et al. - 2017 - Integrative modeling of gene and genome evolution .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pnas.org/doi/full/10.1073/pnas.1618463114
+      \endverb
+      \verb{url}
+      \verb https://pnas.org/doi/full/10.1073/pnas.1618463114
+      \endverb
+    \endentry
+    \entry{xavier2021}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f4dbebdbb3acdf813e6a9a1d289ad528}{%
+           family={Xavier},
+           familyi={X\bibinitperiod},
+           given={Joana\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=edcb23b2d6b1e61748cbd19145b7f2c4}{%
+           family={Gerhards},
+           familyi={G\bibinitperiod},
+           given={Rebecca\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=4bc5137b7a6c41f3015a8a689f26326e}{%
+           family={Wimmer},
+           familyi={W\bibinitperiod},
+           given={Jessica\bibnamedelimb L.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3cfe5da61c9e2455e86fece339af0999}{%
+           family={Brueckner},
+           familyi={B\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=10d4574e481725450d72230e826104d8}{%
+           family={Tria},
+           familyi={T\bibinitperiod},
+           given={Fernando\bibnamedelimb D.\bibnamedelimi K.},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=7b4883c34aff1fc957cd92f5d7fd62bb}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={William\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{a242ed4cda799d07d5ff822adca150cb}
+      \strng{fullhash}{157337d271c09fe5ef4c54b40e7f2308}
+      \strng{bibnamehash}{a242ed4cda799d07d5ff822adca150cb}
+      \strng{authorbibnamehash}{a242ed4cda799d07d5ff822adca150cb}
+      \strng{authornamehash}{a242ed4cda799d07d5ff822adca150cb}
+      \strng{authorfullhash}{157337d271c09fe5ef4c54b40e7f2308}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Bacteria are the most abundant cells on Earth. They are generally regarded as ancient, but due to striking diversity in their metabolic capacities and widespread lateral gene transfer, the physiology of the first bacteria is unknown. From 1089 reference genomes of bacterial anaerobes, we identified 146 protein families that trace to the last bacterial common ancestor, LBCA, and form the conserved predicted core of its metabolic network, which requires only nine genes to encompass all universal metabolites. Our results indicate that LBCA performed gluconeogenesis towards cell wall synthesis, and~had numerous RNA modifications and multifunctional enzymes that permitted life with low gene content. In accordance with recent findings for LUCA and LACA, analyses of thousands of individual gene trees indicate that LBCA was rod-shaped and the first lineage to diverge from the ancestral bacterial stem was most similar to modern Clostridia, followed by other autotrophs that harbor the acetyl-CoA pathway.}
+      \field{issn}{2399-3642}
+      \field{journaltitle}{Commun Biol}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{The Metabolic Network of the Last Bacterial Common Ancestor}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{volume}{4}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{413}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s42003-021-01918-4
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/BJD3VPD5/Xavier et al. - 2021 - The metabolic network of the last bacterial common.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nature.com/articles/s42003-021-01918-4
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/articles/s42003-021-01918-4
+      \endverb
+      \keyw{TBR}
+    \endentry
+    \entry{moody2024}{article}{}
+      \name{author}{19}{}{%
+        {{hash=74f2bd76e24b13d8523d0771057e2395}{%
+           family={Moody},
+           familyi={M\bibinitperiod},
+           given={Edmund\bibnamedelimb R.\bibnamedelimi R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=60b456a8903715ad3956c9febf8c2be7}{%
+           family={Álvarez-Carretero},
+           familyi={Á\bibinithyphendelim C\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d145e68d45ed3e2671783a36e01ab096}{%
+           family={Mahendrarajah},
+           familyi={M\bibinitperiod},
+           given={Tara\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8f5f5d9ffcabdef5942ab55ca24b8f2c}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=426bfdb4e91eb3233ae0655109717797}{%
+           family={Betts},
+           familyi={B\bibinitperiod},
+           given={Holly\bibnamedelima C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6612a2c105fed2890e40d91a9706021a}{%
+           family={Dombrowski},
+           familyi={D\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod}}}%
+        {{hash=44f570eaec6139618e6f069d7f0934f5}{%
+           family={Szánthó},
+           familyi={S\bibinitperiod},
+           given={Lénárd\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=075a4da7f4c0da5ec75419fa50dfcaa4}{%
+           family={Boyle},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f9474b42d1f0d7995dc93cc78c308033}{%
+           family={Daines},
+           familyi={D\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c6649d02b24225ca4c9012cee6c790de}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=cf460ff5743778fa7eab4097e616b481}{%
+           family={Lane},
+           familyi={L\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4d0bece89adf0d22a7586a8927bc4a66}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ziheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b0909e755d083fbfbb75f2a68542e672}{%
+           family={Shields},
+           familyi={S\bibinitperiod},
+           given={Graham\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e2b2d0a03051348b91dc1add6c854896}{%
+           family={Szöllősi},
+           familyi={S\bibinitperiod},
+           given={Gergely\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f54ed48d73a2e8a0596652934237f4c1}{%
+           family={Spang},
+           familyi={S\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+        {{hash=022ed83f48e494f69ec153c5f4ee7da2}{%
+           family={Pisani},
+           familyi={P\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=961abb192613e4c0ec33dfb96e27c891}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Tom\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c474c17cf1a0241ede7840d04ac29bab}{%
+           family={Lenton},
+           familyi={L\bibinitperiod},
+           given={Timothy\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f9acbe1ba41092912b0b29303a65efe9}{%
+           family={Donoghue},
+           familyi={D\bibinitperiod},
+           given={Philip\bibnamedelimb C.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{87293ced55f0a31ec28370667a386040}
+      \strng{fullhash}{ba044eafa6ca67856ea4ecd4926adb5b}
+      \strng{bibnamehash}{87293ced55f0a31ec28370667a386040}
+      \strng{authorbibnamehash}{87293ced55f0a31ec28370667a386040}
+      \strng{authornamehash}{87293ced55f0a31ec28370667a386040}
+      \strng{authorfullhash}{ba044eafa6ca67856ea4ecd4926adb5b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The nature of the last universal common ancestor (LUCA), its age and its impact on the Earth system have been the subject of vigorous debate across diverse disciplines, often based on disparate data and methods. Age estimates for LUCA are usually based on the fossil record, varying with every reinterpretation. The nature of LUCA’s metabolism has proven equally contentious, with some attributing all core metabolisms to LUCA, whereas others reconstruct a simpler life form dependent on geochemistry. Here we infer that LUCA lived \textasciitilde 4.2\,Ga (4.09–4.33\,Ga) through divergence time analysis of pre-LUCA gene duplicates, calibrated using microbial fossils and isotope records under a new cross-bracing implementation. Phylogenetic reconciliation suggests that LUCA had a genome of at least 2.5\,Mb (2.49–2.99\,Mb), encoding around 2,600 proteins, comparable to modern prokaryotes. Our results suggest LUCA was a prokaryote-grade anaerobic acetogen that possessed an early immune system. Although LUCA is sometimes perceived as living in isolation, we infer LUCA to have been part of an established ecological system. The metabolism of LUCA would have provided a niche for other microbial community members and hydrogen recycling by atmospheric photochemistry could have supported a modestly productive early ecosystem.}
+      \field{day}{12}
+      \field{issn}{2397-334X}
+      \field{journaltitle}{Nat Ecol Evol}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{The Nature of the Last Universal Common Ancestor and Its Impact on the Early {{Earth}} System}
+      \field{urlday}{15}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1038/s41559-024-02461-1
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/I4XUA84D/Moody et al. - 2024 - The nature of the last universal common ancestor a.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41559-024-02461-1
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41559-024-02461-1
+      \endverb
+    \endentry
+    \entry{coleman2021}{article}{}
+      \name{author}{8}{}{%
+        {{hash=f6c3b71ec206939078752dd0740ffe30}{%
+           family={Coleman},
+           familyi={C\bibinitperiod},
+           given={Gareth\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0720e3c45fc3e785a6683773f47d5be4}{%
+           family={Davín},
+           familyi={D\bibinitperiod},
+           given={Adrián\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d145e68d45ed3e2671783a36e01ab096}{%
+           family={Mahendrarajah},
+           familyi={M\bibinitperiod},
+           given={Tara\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=44f570eaec6139618e6f069d7f0934f5}{%
+           family={Szánthó},
+           familyi={S\bibinitperiod},
+           given={Lénárd\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f54ed48d73a2e8a0596652934237f4c1}{%
+           family={Spang},
+           familyi={S\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9a3ef6efdf6587c36f86bd5601bfc931}{%
+           family={Hugenholtz},
+           familyi={H\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e2b2d0a03051348b91dc1add6c854896}{%
+           family={Szöllősi},
+           familyi={S\bibinitperiod},
+           given={Gergely\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=961abb192613e4c0ec33dfb96e27c891}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Tom\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f49aaa270549aceca8ebaff2b3ccf4d}
+      \strng{fullhash}{5ab861a4dd3898148b37f530be824a7e}
+      \strng{bibnamehash}{5f49aaa270549aceca8ebaff2b3ccf4d}
+      \strng{authorbibnamehash}{5f49aaa270549aceca8ebaff2b3ccf4d}
+      \strng{authornamehash}{5f49aaa270549aceca8ebaff2b3ccf4d}
+      \strng{authorfullhash}{5ab861a4dd3898148b37f530be824a7e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reconstructing ancestral bacteria The origin of the eubacteria and phylogenetic relationships between subgroups have been difficult to resolve. Applying a phylogenetic analysis and recent computational methods to the expanded diversity of bacterial sequences from metagenomic analyses, Coleman et al. infer the root of the eubacterial tree (see the Perspective by Katz). The root was determined without using the Archaea as an outgroup, to avoid the possibility of a false result due to long branch attraction. This method places the eubacterial root in the neighborhood of Fusobacteriota. Using this information, the authors reconstructed the eubacterial ancestor, identifying that this organism likely had a double-membrane cell envelope, flagellum-mediated motility, antiphage defense mechanisms, and diverse metabolic pathways. Science , this issue p. eabe0511 ; see also p. 574 , A phylogenetic analysis models the evolution of 11,272 protein families in bacteria and identifies the likely evolutionary root. , INTRODUCTION Bacteria are the most diverse and abundant cellular organisms on Earth, and in recent years environmental genomics has revealed the existence of an enormous diversity of previously unknown lineages. Despite the abundance of genomic sequence data, the root of the bacterial tree and the nature of the most recent common ancestor of Bacteria have remained elusive. The problem is that even with the help of new data, tracing billions of years of bacterial evolution back to the root has remained challenging because standard phylogenetic models do not account for the full range of evolutionary processes that shape bacterial genomes. In particular, standard models treat horizontal gene transfer as an impediment to the reconstruction of the tree of life that must be removed from analyses. But if horizontal gene transfer is modeled appropriately, it can provide information about the deep past that is unavailable to standard methods. RATIONALE We reconstructed and rooted the bacterial tree by applying a hierarchical phylogenomic approach that explicitly uses information from gene duplications and losses within a genome as well as gene transfers between genomes. This approach allowed us to root the tree without including an archaeal outgroup. Outgroup-free rooting is a promising approach for Bacteria, both because the position of the universal root is uncertain and because the long branch separating Bacteria from Archaea has the potential to distort the reconstruction of within-Bacteria relationships. Outgroup-free gene tree-species tree reconciliation allowed us to quantitatively model both the vertical and horizontal components of bacterial evolution and integrate information from 11,272 gene families to resolve the root of the bacterial tree. Notably, these analyses also provided estimates of the gene content of the last bacterial common ancestor. RESULTS Our analyses place the root between two major bacterial clades, the Gracilicutes and Terrabacteria. We found no support for a root between the Candidate Phyla Radiation (CPR), a lineage comprising putative symbionts and parasites with small genomes, and all other Bacteria. Instead, the CPR was inferred to be a member of the Terrabacteria and formed a sister lineage to the Chloroflexota and Dormibacterota. This suggests that the CPR evolved by reductive genome evolution from free-living ancestors. Gene families inferred to have been present at the root indicate that the last bacterial common ancestor was already a complex double-membraned cell capable of motility and chemotaxis that possessed a CRISPR-Cas system. Although \textasciitilde 92\% of gene families have experienced horizontal transfers during their history, tracing their evolution along the most likely rooted tree revealed that about two-thirds of gene transmissions have been vertical. Thus, bacterial evolution has a major vertical component, despite a profound impact of horizontal gene transfer through time. Horizontal gene flows can also provide insight into the temporal sequence of events during bacterial diversification, because donor lineages must be at least as old as recipients. Analysis of gene transfers in our dataset suggests that the diversification of the Firmicutes, CPR, Acidobacteriota, and Proteobacteria is the oldest among extant bacterial phyla. CONCLUSION The vertical and horizontal components of genome evolution provide complementary sources of information about bacterial phylogeny. The vertical component provides a robust framework for interpreting species diversity and allows us to reconstruct ancestral states, while the horizontal component helps to root the vertical tree and orient it in time. The inferred Gracilicutes-Terrabacteria root will be useful for investigating the tempo and mode of bacterial diversification, metabolic innovation, and changes in cell architecture such as the evolutionary transitions between double (diderm) and single (monoderm) membranes. Future development of methods that harness the complementarity of vertical and horizontal gene transmission will continue to further our understanding of life on Earth. A rooted phylogeny of Bacteria. The reconciliation of bacterial gene phylogenies places the root between the major clades of Gracilicutes (including Proteobacteria and Bacteroidota) and Terrabacteria (including Firmicutes and Cyanobacteria). On the basis of this hypothesis, ancestral genome reconstruction predicts that the last bacterial common ancestor (LBCA) was a complex, double-membraned cell and that, on average, two-thirds of gene transmissions have been vertically inherited along this rooted tree. , A rooted bacterial tree is necessary to understand early evolution, but the position of the root is contested. Here, we model the evolution of 11,272 gene families to identify the root, extent of horizontal gene transfer (HGT), and the nature of the last bacterial common ancestor (LBCA). Our analyses root the tree between the major clades Terrabacteria and Gracilicutes and suggest that LBCA was a free-living flagellated, rod-shaped double-membraned organism. Contrary to recent proposals, our analyses reject a basal placement of the Candidate Phyla Radiation, which instead branches sister to Chloroflexota within Terrabacteria. While most gene families (92\%) have evidence of HGT, overall, two-thirds of gene transmissions have been vertical, suggesting that a rooted tree provides a meaningful frame of reference for interpreting bacterial evolution.}
+      \field{day}{7}
+      \field{issn}{0036-8075, 1095-9203}
+      \field{journaltitle}{Science}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{6542}
+      \field{title}{A Rooted Phylogeny Resolves Early Bacterial Evolution}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{372}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{eabe0511}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/science.abe0511
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/K5N38HRW/Coleman et al. - 2021 - A rooted phylogeny resolves early bacterial evolut.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/10.1126/science.abe0511
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/10.1126/science.abe0511
+      \endverb
+    \endentry
+    \entry{hyatt2010a}{article}{}
+      \name{author}{6}{}{%
+        {{hash=49f6585873ca7b9c4e27f732930ba049}{%
+           family={Hyatt},
+           familyi={H\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c52044e042c588258994f9334d98e019}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Gwo-Liang},
+           giveni={G\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=ab3cedb0b21114c68c5b9e083d95556f}{%
+           family={LoCascio},
+           familyi={L\bibinitperiod},
+           given={Philip\bibnamedelima F},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=96d72eb2ec6e2956691855c343ab4ed8}{%
+           family={Land},
+           familyi={L\bibinitperiod},
+           given={Miriam\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=41ed97e0035a27da0e2f4e7a37752f03}{%
+           family={Larimer},
+           familyi={L\bibinitperiod},
+           given={Frank\bibnamedelima W},
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=bcbaeb4413ee8f127ee80594bfdd3259}{%
+           family={Hauser},
+           familyi={H\bibinitperiod},
+           given={Loren\bibnamedelima J},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb784247dadc5763d63d617ed2ac8d5b}
+      \strng{fullhash}{fd6de11654250d58e96213824e5f3582}
+      \strng{bibnamehash}{eb784247dadc5763d63d617ed2ac8d5b}
+      \strng{authorbibnamehash}{eb784247dadc5763d63d617ed2ac8d5b}
+      \strng{authornamehash}{eb784247dadc5763d63d617ed2ac8d5b}
+      \strng{authorfullhash}{fd6de11654250d58e96213824e5f3582}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background: The quality of automated gene prediction in microbial organisms has improved steadily over the past decade, but there is still room for improvement. Increasing the number of correct identifications, both of genes and of the translation initiation sites for each gene, and reducing the overall number of false positives, are all desirable goals. Results: With our years of experience in manually curating genomes for the Joint Genome Institute, we developed a new gene prediction algorithm called Prodigal (PROkaryotic DYnamic programming Gene-finding ALgorithm). With Prodigal, we focused specifically on the three goals of improved gene structure prediction, improved translation initiation site recognition, and reduced false positives. We compared the results of Prodigal to existing gene-finding methods to demonstrate that it met each of these objectives. Conclusion: We built a fast, lightweight, open source gene prediction program called Prodigal http://compbio.ornl. gov/prodigal/. Prodigal achieved good results compared to existing methods, and we believe it will be a valuable asset to automated microbial annotation pipelines.}
+      \field{issn}{1471-2105}
+      \field{journaltitle}{BMC Bioinformatics}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{1}
+      \field{shorttitle}{Prodigal}
+      \field{title}{Prodigal: Prokaryotic Gene Recognition and Translation Initiation Site Identification}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{119}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1471-2105-11-119
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/KPCV72CU/Hyatt et al. - 2010 - Prodigal prokaryotic gene recognition and transla.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-119
+      \endverb
+      \verb{url}
+      \verb https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-119
+      \endverb
+    \endentry
+    \entry{thegenomestandardsconsortium2017}{article}{}
+      \name{author}{55}{}{%
+        {{hash=b7742df62d0f96ec581cc666d1fce9c5}{%
+           family={{The Genome Standards Consortium}},
+           familyi={T\bibinitperiod}}}%
+        {{hash=d58ce90a5bf9b1b52f36a8c69bd9d8d3}{%
+           family={Bowers},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b1514ff39f27e689df54559574a32b63}{%
+           family={Kyrpides},
+           familyi={K\bibinitperiod},
+           given={Nikos\bibnamedelima C},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0bfa6eb75ad8fd7dfd59252f03c7ddd3}{%
+           family={Stepanauskas},
+           familyi={S\bibinitperiod},
+           given={Ramunas},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9d6cd83c8fa61e2d3a85879b2948d30c}{%
+           family={Harmon-Smith},
+           familyi={H\bibinithyphendelim S\bibinitperiod},
+           given={Miranda},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f290dda200bad51cdf26b6f2315369c6}{%
+           family={Doud},
+           familyi={D\bibinitperiod},
+           given={Devin},
+           giveni={D\bibinitperiod}}}%
+        {{hash=22ac55f93a4df801d58855a070a40db0}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={T\bibnamedelima B\bibnamedelima K},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=409af819262818ff0e0574dc7d4c4647}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8345ce5eacfa7abb11c7b4643824634e}{%
+           family={Jarett},
+           familyi={J\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f3adc4282682bfda78109cc0cd2fe361}{%
+           family={Rivers},
+           familyi={R\bibinitperiod},
+           given={Adam\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=390d3fcefd920fda18ec562689b99d1c}{%
+           family={Eloe-Fadrosh},
+           familyi={E\bibinithyphendelim F\bibinitperiod},
+           given={Emiley\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=30d11f750623dfa01485695e097a2147}{%
+           family={Tringe},
+           familyi={T\bibinitperiod},
+           given={Susannah\bibnamedelima G},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=89bc9a99074954714a1014a47cbdd23e}{%
+           family={Ivanova},
+           familyi={I\bibinitperiod},
+           given={Natalia\bibnamedelima N},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=65583adaeb9da5a79e539b1ffce51088}{%
+           family={Copeland},
+           familyi={C\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3a5a8a7ee907add4b5204e2901ed9a6f}{%
+           family={Clum},
+           familyi={C\bibinitperiod},
+           given={Alicia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ef471dad2dae8333263de39708c96474}{%
+           family={Becraft},
+           familyi={B\bibinitperiod},
+           given={Eric\bibnamedelima D},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a585eb59fb1db72d99d79e5393e899c3}{%
+           family={Malmstrom},
+           familyi={M\bibinitperiod},
+           given={Rex\bibnamedelima R},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f76fa9f25a72966f96af1dd7f42a9d7b}{%
+           family={Birren},
+           familyi={B\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+        {{hash=59aaed1c6ed3be7a7d847c79aa1f3070}{%
+           family={Podar},
+           familyi={P\bibinitperiod},
+           given={Mircea},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e661978528e2df38a8c66036d9e7c3a2}{%
+           family={Bork},
+           familyi={B\bibinitperiod},
+           given={Peer},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3971af918286dab60a066b8b00e3cd38}{%
+           family={Weinstock},
+           familyi={W\bibinitperiod},
+           given={George\bibnamedelima M},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5b37c5647286ffb1d3131c95d5083be0}{%
+           family={Garrity},
+           familyi={G\bibinitperiod},
+           given={George\bibnamedelima M},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=86dccd3ea584016c1b8f5130d295a274}{%
+           family={Dodsworth},
+           familyi={D\bibinitperiod},
+           given={Jeremy\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9bf03bb10849bb7583c1b5eb9f88dede}{%
+           family={Yooseph},
+           familyi={Y\bibinitperiod},
+           given={Shibu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3f7437db52ab986ec3b16b8a84ff6762}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={Granger},
+           giveni={G\bibinitperiod}}}%
+        {{hash=15bc3aa10fd6c113afa66e2ad44061aa}{%
+           family={Glöckner},
+           familyi={G\bibinitperiod},
+           given={Frank\bibnamedelima O},
+           giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=233b10daef3e222b8a0c29ca2b289a09}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Jack\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=80a3b2a1137b4c408720e0db935a43dc}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={William\bibnamedelima C},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=52848585c49bb048efeb2aacf28dea48}{%
+           family={Hallam},
+           familyi={H\bibinitperiod},
+           given={Steven\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=482f517890f9222357ac2aa8f88ca08d}{%
+           family={Jungbluth},
+           familyi={J\bibinitperiod},
+           given={Sean\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=3a7f0c79c7b0bbb3f39dda761d1d76ec}{%
+           family={Ettema},
+           familyi={E\bibinitperiod},
+           given={Thijs\bibnamedelimb J\bibnamedelima G},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=3ebe124dbdcead717fb1a767cfa87713}{%
+           family={Tighe},
+           familyi={T\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=baa213b46fb8ea0d416fcff6cf7e85c3}{%
+           family={Konstantinidis},
+           familyi={K\bibinitperiod},
+           given={Konstantinos\bibnamedelima T},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8395c9bd479d388d192109d957771633}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wen-Tso},
+           giveni={W\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=dc973db406a9a40340d70831d742ec4d}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Brett\bibnamedelima J},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=16348acadd9c6bc316e66ad5ceee73a3}{%
+           family={Rattei},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4b548404b858e93369534cd3032976da}{%
+           family={Eisen},
+           familyi={E\bibinitperiod},
+           given={Jonathan\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6dc959140400c70a13a42cfadf8d876c}{%
+           family={Hedlund},
+           familyi={H\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4a177f8babbc75c09b1d649d3b34e826}{%
+           family={McMahon},
+           familyi={M\bibinitperiod},
+           given={Katherine\bibnamedelima D},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a52765c9f7dcff44813ff65a89d4c5cb}{%
+           family={Fierer},
+           familyi={F\bibinitperiod},
+           given={Noah},
+           giveni={N\bibinitperiod}}}%
+        {{hash=607e7274c9442c4ae0ef4ccd9c4b549f}{%
+           family={Knight},
+           familyi={K\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+        {{hash=874c3db3df5b67ea1f088ea2db0c07e0}{%
+           family={Finn},
+           familyi={F\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+        {{hash=44e559f3fa117826f9cbbf0dc6cdb592}{%
+           family={Cochrane},
+           familyi={C\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=92aaea364cc496386294e5d49b07e96c}{%
+           family={Karsch-Mizrachi},
+           familyi={K\bibinithyphendelim M\bibinitperiod},
+           given={Ilene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=4ce042a72d4181de54e5c0b300107205}{%
+           family={Tyson},
+           familyi={T\bibinitperiod},
+           given={Gene\bibnamedelima W},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=018307b60b9c2a4c7f43f0f7b4f85f2b}{%
+           family={Rinke},
+           familyi={R\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=eb968c13eeafe661704404d715636afc}{%
+           family={Lapidus},
+           familyi={L\bibinitperiod},
+           given={Alla},
+           giveni={A\bibinitperiod}}}%
+        {{hash=818b3778f91868e865d98371b6ac381b}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Folker},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0e2fa8077ed25555001cb9601e851f68}{%
+           family={Yilmaz},
+           familyi={Y\bibinitperiod},
+           given={Pelin},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0cd40947fdf1e0965bc9c80fcffc8ab5}{%
+           family={Parks},
+           familyi={P\bibinitperiod},
+           given={Donovan\bibnamedelima H},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d5eac851ea6af95b7b89944b9cb8b392}{%
+           family={Murat\bibnamedelima Eren},
+           familyi={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fc24f6627517d299d1f664872b5aa895}{%
+           family={Schriml},
+           familyi={S\bibinitperiod},
+           given={Lynn},
+           giveni={L\bibinitperiod}}}%
+        {{hash=dc9e5d94dc8f0673c9e6040b1f6fae29}{%
+           family={Banfield},
+           familyi={B\bibinitperiod},
+           given={Jillian\bibnamedelima F},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=9a3ef6efdf6587c36f86bd5601bfc931}{%
+           family={Hugenholtz},
+           familyi={H\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=00449b68457ad3c5300a6aa449990831}{%
+           family={Woyke},
+           familyi={W\bibinitperiod},
+           given={Tanja},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fddd3ce4e88ea8a54e92c437b6298786}
+      \strng{fullhash}{241e0ec3bbb5b38ec879bdd73b2f603e}
+      \strng{bibnamehash}{fddd3ce4e88ea8a54e92c437b6298786}
+      \strng{authorbibnamehash}{fddd3ce4e88ea8a54e92c437b6298786}
+      \strng{authornamehash}{fddd3ce4e88ea8a54e92c437b6298786}
+      \strng{authorfullhash}{241e0ec3bbb5b38ec879bdd73b2f603e}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract We present two standards developed by the Genomic Standards Consortium (GSC) for reporting bacterial and archaeal genome sequences. Both are extensions of the Minimum Information about Any (x) Sequence (MIxS). The standards are the Minimum Information about a Single Amplified Genome (MISAG) and the Minimum Information about a Metagenome-Assembled Genome (MIMAG), including, but not limited to, assembly quality, and estimates of genome completeness and contamination. These standards can be used in combination with other GSC checklists, including the Minimum Information about a Genome Sequence (MIGS), Minimum Information about a Metagenomic Sequence (MIMS), and Minimum Information about a Marker Gene Sequence (MIMARKS). Community-wide adoption of MISAG and MIMAG will facilitate more robust comparative genomic analyses of bacterial and archaeal diversity.}
+      \field{issn}{1087-0156, 1546-1696}
+      \field{journaltitle}{Nat Biotechnol}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Minimum Information about a Single Amplified Genome ({{MISAG}}) and a Metagenome-Assembled Genome ({{MIMAG}}) of Bacteria and Archaea}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{35}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{725\bibrangedash 731}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nbt.3893
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/BK5XQ33Z/The Genome Standards Consortium et al. - 2017 - Minimum information about a single amplified genom.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nbt.3893
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nbt.3893
+      \endverb
+    \endentry
+    \entry{emms2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b4ea4304819e188471a5eada10434eae}{%
+           family={Emms},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7bd80201e7cc94ca1380c83382f6725d}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{fullhash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{bibnamehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{authorbibnamehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{authornamehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{authorfullhash}{58e236a4d25c4807c1e911ec42317f37}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Here, we present a major advance of the OrthoFinder method. This extends OrthoFinder’s high accuracy orthogroup inference to provide phylogenetic inference of orthologs, rooted gene trees, gene duplication events, the rooted species tree, and comparative genomics statistics. Each output is benchmarked on appropriate real or simulated datasets, and where comparable methods exist, OrthoFinder is equivalent to or outperforms these methods. Furthermore, OrthoFinder is the most accurate ortholog inference method on the Quest for Orthologs benchmark test. Finally, OrthoFinder’s comprehensive phylogenetic analysis is achieved with equivalent speed and scalability to the fastest, score-based heuristic methods. OrthoFinder is available at https://github.com/davidemms/OrthoFinder.}
+      \field{issn}{1474-760X}
+      \field{journaltitle}{Genome Biol}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{1}
+      \field{shorttitle}{{{OrthoFinder}}}
+      \field{title}{{{OrthoFinder}}: Phylogenetic Orthology Inference for Comparative Genomics}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{20}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{238}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s13059-019-1832-y
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/YNM444K8/Emms and Kelly - 2019 - OrthoFinder phylogenetic orthology inference for .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1832-y
+      \endverb
+      \verb{url}
+      \verb https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1832-y
+      \endverb
+    \endentry
+    \entry{emms2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b4ea4304819e188471a5eada10434eae}{%
+           family={Emms},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7bd80201e7cc94ca1380c83382f6725d}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{fullhash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{bibnamehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{authorbibnamehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{authornamehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{authorfullhash}{58e236a4d25c4807c1e911ec42317f37}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Identifying homology relationships between sequences is fundamental to biological research. Here we provide a novel orthogroup inference algorithm called OrthoFinder that solves a previously undetected gene length bias in orthogroup inference, resulting in significant improvements in accuracy. Using real benchmark datasets we demonstrate that OrthoFinder is more accurate than other orthogroup inference methods by between 8 \% and 33 \%. Furthermore, we demonstrate the utility of OrthoFinder by providing a complete classification of transcription factor gene families in plants revealing 6.9 million previously unobserved relationships.}
+      \field{issn}{1474-760X}
+      \field{journaltitle}{Genome Biol}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{1}
+      \field{shorttitle}{{{OrthoFinder}}}
+      \field{title}{{{OrthoFinder}}: Solving Fundamental Biases in Whole Genome Comparisons Dramatically Improves Orthogroup Inference Accuracy}
+      \field{urlday}{20}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{16}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{157}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s13059-015-0721-2
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/RPPNAGDD/Emms and Kelly - 2015 - OrthoFinder solving fundamental biases in whole g.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0721-2
+      \endverb
+      \verb{url}
+      \verb https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0721-2
+      \endverb
+    \endentry
+    \entry{buchfink2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=eaf8f8e4e20bd4fe2df856bad6585dc3}{%
+           family={Buchfink},
+           familyi={B\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=691f114fc9ac43de4e4324ec3707e702}{%
+           family={Reuter},
+           familyi={R\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=407399fc37801dc5692954ec8ff91bfd}{%
+           family={Drost},
+           familyi={D\bibinitperiod},
+           given={Hajk-Georg},
+           giveni={H\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bded807075757755f8f3138264d6d17}
+      \strng{fullhash}{5e564c0d24127284ea6a11c04a4d8dc5}
+      \strng{bibnamehash}{5e564c0d24127284ea6a11c04a4d8dc5}
+      \strng{authorbibnamehash}{5e564c0d24127284ea6a11c04a4d8dc5}
+      \strng{authornamehash}{0bded807075757755f8f3138264d6d17}
+      \strng{authorfullhash}{5e564c0d24127284ea6a11c04a4d8dc5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract We are at the beginning of a genomic revolution in which all known species are planned to be sequenced. Accessing such data for comparative analyses is crucial in this new age of data-driven biology. Here, we introduce an improved version of DIAMOND that greatly exceeds previous search performances and harnesses supercomputing to perform tree-of-life scale protein alignments in hours, while matching the sensitivity of the gold standard BLASTP.}
+      \field{issn}{1548-7091, 1548-7105}
+      \field{journaltitle}{Nat Methods}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Sensitive Protein Alignments at Tree-of-Life Scale Using {{DIAMOND}}}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{18}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{366\bibrangedash 368}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1038/s41592-021-01101-x
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/XTJMCVTB/Buchfink et al. - 2021 - Sensitive protein alignments at tree-of-life scale.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-021-01101-x
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-021-01101-x
+      \endverb
+    \endentry
+    \entry{vandongen2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ccb6854ec73964338fbb599f12e70ab1}{%
+           family={Van\bibnamedelima Dongen},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Stijn},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccb6854ec73964338fbb599f12e70ab1}
+      \strng{fullhash}{ccb6854ec73964338fbb599f12e70ab1}
+      \strng{bibnamehash}{ccb6854ec73964338fbb599f12e70ab1}
+      \strng{authorbibnamehash}{ccb6854ec73964338fbb599f12e70ab1}
+      \strng{authornamehash}{ccb6854ec73964338fbb599f12e70ab1}
+      \strng{authorfullhash}{ccb6854ec73964338fbb599f12e70ab1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A discrete uncoupling process for finite spaces is introduced, called the Markov Cluster Process or the MCL process. The process is the engine for the graph clustering algorithm called the MCL algorithm. The MCL process takes a stochastic matrix as input, and then alternates expansion and inflation, each step defining a stochastic matrix in terms of the previous one. Expansion corresponds with taking the kth power of a stochastic matrix, where k ∈ N. Inflation corresponds with a parametrized operator Γr, r ≥ 0, that maps the set of (column) stochastic matrices onto itself. The image ΓrM is obtained by raising each entry in M to the rth power and rescaling each column to have sum 1 again. In practice the process converges very fast towards a limit that is invariant under both matrix multiplication and inflation, with quadratic convergence around the limit points. The heuristic behind the process is its expected behavior for (Markov) graphs possessing cluster structure. The process is typically applied to the matrix of random walks on a given graph G, and the connected components of (the graph associated with) the process limit generically allow a clustering interpretation of G. The limit is in general extremely sparse and iterands are sparse in a weighted sense, implying that the MCL algorithm is very fast and highly scalable. Several mathematical properties of the MCL process are established. Most notably, the process (and algorithm) iterands posses structural properties generalizing the mapping from process limits onto clusterings. The inflation operator Γr maps the class of matrices that are diagonally similar to a symmetric matrix onto itself. The phrase diagonally positive semi-definite (dpsd) is used for matrices that are diagonally similar to a positive semi-definite matrix. For r ∈ N and for M a stochastic dpsd matrix, the image ΓrM is again dpsd. Determinantal inequalities satisfied by a dpsd matrix M imply a natural ordering among the diagonal elements of M , generalizing the mapping of process limits onto clusterings. The spectrum of Γ∞M is of the form \{0n−k, 1k\}, where k is the number of endclasses of the ordering associated with M , and n is the dimension of M . This attests to the uncoupling effect of the inflation operator.}
+      \field{issn}{0895-4798, 1095-7162}
+      \field{journaltitle}{SIAM J. Matrix Anal. \& Appl.}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Graph {{Clustering Via}} a {{Discrete Uncoupling Process}}}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{30}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{121\bibrangedash 141}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1137/040608635
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/MP5X77Q4/Van Dongen - 2008 - Graph Clustering Via a Discrete Uncoupling Process.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://epubs.siam.org/doi/10.1137/040608635
+      \endverb
+      \verb{url}
+      \verb http://epubs.siam.org/doi/10.1137/040608635
+      \endverb
+    \endentry
+    \entry{huerta-cepas2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4703e99d512f84334cbb0980e449d624}{%
+           family={Huerta-Cepas},
+           familyi={H\bibinithyphendelim C\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8c72ddd8661490397dc6c49540e11178}{%
+           family={Serra},
+           familyi={S\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e661978528e2df38a8c66036d9e7c3a2}{%
+           family={Bork},
+           familyi={B\bibinitperiod},
+           given={Peer},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{43e551246652275d692bf5fd55fb2432}
+      \strng{fullhash}{e259f90be8a2216a612f4174c79376cc}
+      \strng{bibnamehash}{e259f90be8a2216a612f4174c79376cc}
+      \strng{authorbibnamehash}{e259f90be8a2216a612f4174c79376cc}
+      \strng{authornamehash}{43e551246652275d692bf5fd55fb2432}
+      \strng{authorfullhash}{e259f90be8a2216a612f4174c79376cc}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Environment for Tree Exploration (ETE) is a computational framework that simplifies the reconstruction, analysis, and visualization of phylogenetic trees and multiple sequence alignments. Here, we present ETE v3, featuring numerous improvements in the underlying library of methods, and providing a novel set of standalone tools to perform common tasks in comparative genomics and phylogenetics. The new features include (i) building gene-based and supermatrixbased phylogenies using a single command, (ii) testing and visualizing evolutionary models, (iii) calculating distances between trees of different size or including duplications, and (iv) providing seamless integration with the NCBI taxonomy database. ETE is freely available at http://etetoolkit.org Key words: phylogenomics, tree visualization, tree comparison, NCBI taxonomy, hypothesis testing, phylogenetics.}
+      \field{issn}{0737-4038, 1537-1719}
+      \field{journaltitle}{Mol Biol Evol}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{{{ETE}} 3}
+      \field{title}{{{ETE}} 3: {{Reconstruction}}, {{Analysis}}, and {{Visualization}} of {{Phylogenomic Data}}}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1635\bibrangedash 1638}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1093/molbev/msw046
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/LSXJQ8PC/Huerta-Cepas et al. - 2016 - ETE 3 Reconstruction, Analysis, and Visualization.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msw046
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msw046
+      \endverb
+    \endentry
+    \entry{cantalapiedra2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=82aa085f5d45ea6582fc1338c4f24d74}{%
+           family={Cantalapiedra},
+           familyi={C\bibinitperiod},
+           given={Carlos\bibnamedelima P},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=d82ddbc37ce6eb5f4aa62e22a14aa9fd}{%
+           family={Hernández-Plaza},
+           familyi={H\bibinithyphendelim P\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=90a16251283487ab24f75284582c22c5}{%
+           family={Letunic},
+           familyi={L\bibinitperiod},
+           given={Ivica},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e661978528e2df38a8c66036d9e7c3a2}{%
+           family={Bork},
+           familyi={B\bibinitperiod},
+           given={Peer},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4703e99d512f84334cbb0980e449d624}{%
+           family={Huerta-Cepas},
+           familyi={H\bibinithyphendelim C\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=559f35a31311da3c93b46b8c463350a2}{%
+           family={Tamura},
+           familyi={T\bibinitperiod},
+           given={Koichiro},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{710ae2a2f02063e0c187d3699838e961}
+      \strng{fullhash}{5af6aede2580fd6a13afc8d1a5f7f4cb}
+      \strng{bibnamehash}{5af6aede2580fd6a13afc8d1a5f7f4cb}
+      \strng{authorbibnamehash}{5af6aede2580fd6a13afc8d1a5f7f4cb}
+      \strng{authornamehash}{710ae2a2f02063e0c187d3699838e961}
+      \strng{authorfullhash}{5af6aede2580fd6a13afc8d1a5f7f4cb}
+      \strng{editorbibnamehash}{559f35a31311da3c93b46b8c463350a2}
+      \strng{editornamehash}{559f35a31311da3c93b46b8c463350a2}
+      \strng{editorfullhash}{559f35a31311da3c93b46b8c463350a2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Even though automated functional annotation of genes represents a fundamental step in most genomic and metagenomic workflows, it remains challenging at large scales. Here, we describe a major upgrade to eggNOG-mapper, a tool for functional annotation based on precomputed orthology assignments, now optimized for vast (meta)genomic data sets. Improvements in version 2 include a full update of both the genomes and functional databases to those from eggNOG v5, as well as several efficiency enhancements and new features. Most notably, eggNOG-mapper v2 now allows for: 1) de novo gene prediction from raw contigs, 2) built-in pairwise orthology prediction, 3) fast protein domain discovery, and 4) automated GFF decoration. eggNOG-mapper v2 is available as a standalone tool or as an online service at http://eggnogmapper.embl.de.}
+      \field{day}{9}
+      \field{issn}{1537-1719}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shorttitle}{{{eggNOG-mapper}} V2}
+      \field{title}{{{eggNOG-mapper}} v2: {{Functional Annotation}}, {{Orthology Assignments}}, and {{Domain Prediction}} at the {{Metagenomic Scale}}}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{38}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5825\bibrangedash 5829}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1093/molbev/msab293
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/YS8J52AW/Cantalapiedra et al. - 2021 - eggNOG-mapper v2 Functional Annotation, Orthology.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mbe/article/38/12/5825/6379734
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mbe/article/38/12/5825/6379734
+      \endverb
+    \endentry
+    \entry{huerta-cepas2019}{article}{}
+      \name{author}{12}{}{%
+        {{hash=4703e99d512f84334cbb0980e449d624}{%
+           family={Huerta-Cepas},
+           familyi={H\bibinithyphendelim C\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6942f72d9844b77787c252af89493b8d}{%
+           family={Szklarczyk},
+           familyi={S\bibinitperiod},
+           given={Damian},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fa9833e942552aad145ff92ca80975e0}{%
+           family={Heller},
+           familyi={H\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d82ddbc37ce6eb5f4aa62e22a14aa9fd}{%
+           family={Hernández-Plaza},
+           familyi={H\bibinithyphendelim P\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=596e1a70e816992bac727c80eeb16520}{%
+           family={Forslund},
+           familyi={F\bibinitperiod},
+           given={Sofia\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9fe1eec60ec1329f9f0313252fc2e2b3}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=05a614473040cf79e8a70433c22eb217}{%
+           family={Mende},
+           familyi={M\bibinitperiod},
+           given={Daniel\bibnamedelima R},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=90a16251283487ab24f75284582c22c5}{%
+           family={Letunic},
+           familyi={L\bibinitperiod},
+           given={Ivica},
+           giveni={I\bibinitperiod}}}%
+        {{hash=16348acadd9c6bc316e66ad5ceee73a3}{%
+           family={Rattei},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c1304fa5d95a08773b1639289640b113}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Lars\bibnamedelima J},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=48b01a710aa6c2ccfa06864c9069de95}{%
+           family={{von~Mering}},
+           familyi={v\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e661978528e2df38a8c66036d9e7c3a2}{%
+           family={Bork},
+           familyi={B\bibinitperiod},
+           given={Peer},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{43e551246652275d692bf5fd55fb2432}
+      \strng{fullhash}{b4a6210e148a869cd5d8ea56402a9ee7}
+      \strng{bibnamehash}{43e551246652275d692bf5fd55fb2432}
+      \strng{authorbibnamehash}{43e551246652275d692bf5fd55fb2432}
+      \strng{authornamehash}{43e551246652275d692bf5fd55fb2432}
+      \strng{authorfullhash}{b4a6210e148a869cd5d8ea56402a9ee7}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{8}
+      \field{issn}{0305-1048, 1362-4962}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{D1}
+      \field{shorttitle}{{{eggNOG}} 5.0}
+      \field{title}{{{eggNOG}} 5.0: A Hierarchical, Functionally and Phylogenetically Annotated Orthology Resource Based on 5090 Organisms and 2502 Viruses}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{47}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{D309\bibrangedash D314}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gky1085
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/EZ4PNYL8/Huerta-Cepas et al. - 2019 - eggNOG 5.0 a hierarchical, functionally and phylo.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/nar/article/47/D1/D309/5173662
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/nar/article/47/D1/D309/5173662
+      \endverb
+    \endentry
+    \entry{katoh2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=40ebf76d213fa4acbf6c5ea8c5b4a908}{%
+           family={Katoh},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=857edf96ac2ae9cc709530e1c8f92443}{%
+           family={Standley},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{00fee2e81f75fbc98e8ed1df644bc9b2}
+      \strng{fullhash}{00fee2e81f75fbc98e8ed1df644bc9b2}
+      \strng{bibnamehash}{00fee2e81f75fbc98e8ed1df644bc9b2}
+      \strng{authorbibnamehash}{00fee2e81f75fbc98e8ed1df644bc9b2}
+      \strng{authornamehash}{00fee2e81f75fbc98e8ed1df644bc9b2}
+      \strng{authorfullhash}{00fee2e81f75fbc98e8ed1df644bc9b2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We report a major update of the MAFFT multiple sequence alignment program. This version has several new features, including options for adding unaligned sequences into an existing alignment, adjustment of direction in nucleotide alignment, constrained alignment and parallel processing, which were implemented after the previous major update. This report shows actual examples to explain how these features work, alone and in combination. Some examples incorrectly aligned by MAFFT are also shown to clarify its limitations. We discuss how to avoid misalignments, and our ongoing efforts to overcome such limitations.}
+      \field{day}{1}
+      \field{issn}{0737-4038, 1537-1719}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shorttitle}{{{MAFFT Multiple Sequence Alignment Software Version}} 7}
+      \field{title}{{{MAFFT Multiple Sequence Alignment Software Version}} 7: {{Improvements}} in {{Performance}} and {{Usability}}}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{30}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{772\bibrangedash 780}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1093/molbev/mst010
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/IS2Q6UJV/Katoh and Standley - 2013 - MAFFT Multiple Sequence Alignment Software Version.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/mst010
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/mst010
+      \endverb
+    \endentry
+    \entry{theuniprotconsortium2023}{article}{}
+      \name{author}{115}{}{%
+        {{hash=da8c6566d64cc457039026c4d44ed2df}{%
+           family={{The UniProt Consortium}},
+           familyi={T\bibinitperiod}}}%
+        {{hash=1ced5c37e13ed96f4cb024911c267029}{%
+           family={Bateman},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f641fc6a98cb6d78a90ff3dd4e582e54}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Maria-Jesus},
+           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=2229dddceb7e393aac7067479018e6c3}{%
+           family={Orchard},
+           familyi={O\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e10fb5c03922c90b5cebe67c2c41c2da}{%
+           family={Magrane},
+           familyi={M\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1844332bfb3380096ec18c9adcc82893}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Shadab},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0617eb85407ad106f6551d21961e98f5}{%
+           family={Alpi},
+           familyi={A\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0ed35c6646828194266982d4db5f1e7d}{%
+           family={Bowler-Barnett},
+           familyi={B\bibinithyphendelim B\bibinitperiod},
+           given={Emily\bibnamedelima H},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7c6733f55274d1f0763fb611afd51b78}{%
+           family={Britto},
+           familyi={B\bibinitperiod},
+           given={Ramona},
+           giveni={R\bibinitperiod}}}%
+        {{hash=55ba8e49a5e70b6a4f9d3964e467d0b1}{%
+           family={Bye-A-Jee},
+           familyi={B\bibinithyphendelim A\bibinithyphendelim J\bibinitperiod},
+           given={Hema},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3692fe381c9c7198a959e287fe35b022}{%
+           family={Cukura},
+           familyi={C\bibinitperiod},
+           given={Austra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=94639dd5d489d2e9ef5990c03ec52b20}{%
+           family={Denny},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=957090b1b4cc8a579c071aa429516ad6}{%
+           family={Dogan},
+           familyi={D\bibinitperiod},
+           given={Tunca},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0fa7ac7f6814eb80dab992be24cad37b}{%
+           family={Ebenezer},
+           familyi={E\bibinitperiod},
+           given={ThankGod},
+           giveni={T\bibinitperiod}}}%
+        {{hash=efb8fd057fde78b776eebf4b0a7d79d7}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7555c0e521391b499d24b24a3866f038}{%
+           family={Garmiri},
+           familyi={G\bibinitperiod},
+           given={Penelope},
+           giveni={P\bibinitperiod}}}%
+        {{hash=2bb253c58a07fcb332dc3a1f89720849}{%
+           family={Da\bibnamedelima Costa\bibnamedelima Gonzales},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Leonardo\bibnamedelima Jose},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a9f18ef66d27ccf9b502fa6630450f15}{%
+           family={Hatton-Ellis},
+           familyi={H\bibinithyphendelim E\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b33eb0c6f88ff7a7de022a251bae4970}{%
+           family={Hussein},
+           familyi={H\bibinitperiod},
+           given={Abdulrahman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1f78d3c378b406ddf308ec27ecc6bc99}{%
+           family={Ignatchenko},
+           familyi={I\bibinitperiod},
+           given={Alexandr},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eca040a0968796d806f66de5026236e0}{%
+           family={Insana},
+           familyi={I\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=56166cf38dbdb088178cc573f667e174}{%
+           family={Ishtiaq},
+           familyi={I\bibinitperiod},
+           given={Rizwan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0bff925df146008641b650247413de65}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Vishal},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1d0eb961520d1791311eac0a6ba9c625}{%
+           family={Jyothi},
+           familyi={J\bibinitperiod},
+           given={Dushyanth},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b576a8eba19e0c7e81154515763a62fa}{%
+           family={Kandasaamy},
+           familyi={K\bibinitperiod},
+           given={Swaathi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=74337aceec62d5e90eec5fcce2de238e}{%
+           family={Lock},
+           familyi={L\bibinitperiod},
+           given={Antonia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=730960167cc7aa9a27bdb28560077f01}{%
+           family={Luciani},
+           familyi={L\bibinitperiod},
+           given={Aurelien},
+           giveni={A\bibinitperiod}}}%
+        {{hash=945cc935c60178be2408d6495cd1b9b7}{%
+           family={Lugaric},
+           familyi={L\bibinitperiod},
+           given={Marija},
+           giveni={M\bibinitperiod}}}%
+        {{hash=13535c907b998556836ce5420388500a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8474b4dc00e97ecd10b4018b793130ce}{%
+           family={Lussi},
+           familyi={L\bibinitperiod},
+           given={Yvonne},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f09d4b9f0c83f45743add190a0bb6c7e}{%
+           family={MacDougall},
+           familyi={M\bibinitperiod},
+           given={Alistair},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ed1f42b9f4b7cf67e5ccc38bb0d2983d}{%
+           family={Madeira},
+           familyi={M\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=30bf5a5a753a31faf9454d9bf991aaf5}{%
+           family={Mahmoudy},
+           familyi={M\bibinitperiod},
+           given={Mahdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a7781b038fcaf72a05ed4897e24160a5}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Alok},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e75cc3e9401fe47d9f83a560acf72fe8}{%
+           family={Moulang},
+           familyi={M\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod}}}%
+        {{hash=41f7da61a31b9dc0e07473dd9b5b3f84}{%
+           family={Nightingale},
+           familyi={N\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1eee82805b74e43a66cfbb9bac938745}{%
+           family={Pundir},
+           familyi={P\bibinitperiod},
+           given={Sangya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=af700f32b359273e1d7d7c93b5656dd0}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Guoying},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6b85fa35d4e7219f5ceb59dc2453587b}{%
+           family={Raj},
+           familyi={R\bibinitperiod},
+           given={Shriya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a7579d64e688d147aa0af1903848c0cc}{%
+           family={Raposo},
+           familyi={R\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a7851f2527ffbef18605d2c294e2c12c}{%
+           family={Rice},
+           familyi={R\bibinitperiod},
+           given={Daniel\bibnamedelima L},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0bd37af1f61cfbf7013309d69d4310cd}{%
+           family={Saidi},
+           familyi={S\bibinitperiod},
+           given={Rabie},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dcfc88ccbf81ec07109a71c2a996cb2d}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=02c36b73ed418a4bd19cf66381f5a72c}{%
+           family={Speretta},
+           familyi={S\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a8e6594da23529bff667a45386987d18}{%
+           family={Stephenson},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=17046102bdf9c9e75fce9e0797cc43d6}{%
+           family={Totoo},
+           familyi={T\bibinitperiod},
+           given={Prabhat},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c2605c77c1d2ae8525ebd44f43df3ffa}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=67623781f2797189a34dcbaa53f977c2}{%
+           family={Tyagi},
+           familyi={T\bibinitperiod},
+           given={Nidhi},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2c3a88b65822c19242a91e731407b7ae}{%
+           family={Vasudev},
+           familyi={V\bibinitperiod},
+           given={Preethi},
+           giveni={P\bibinitperiod}}}%
+        {{hash=246d5d4ba00af4bace55d68863a10b3b}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod}}}%
+        {{hash=51df4c6eec9f9734f973d23d1bb6df78}{%
+           family={Watkins},
+           familyi={W\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=97d450fb48a9da022d2b9e284037e140}{%
+           family={Zaru},
+           familyi={Z\bibinitperiod},
+           given={Rossana},
+           giveni={R\bibinitperiod}}}%
+        {{hash=601d9012db582eb55ff882984f4929db}{%
+           family={Zellner},
+           familyi={Z\bibinitperiod},
+           given={Hermann},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7a1870b4519ea3ad5ec7ea5f2553f051}{%
+           family={Bridge},
+           familyi={B\bibinitperiod},
+           given={Alan\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7bbee5c9a0b95803cfefc9c65dd69fb7}{%
+           family={Aimo},
+           familyi={A\bibinitperiod},
+           given={Lucila},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e6ac677540f3fd2708d1863fea8a499e}{%
+           family={Argoud-Puy},
+           familyi={A\bibinithyphendelim P\bibinitperiod},
+           given={Ghislaine},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5c0a5404aa28e2c2ebf42e1b55c1a28e}{%
+           family={Auchincloss},
+           familyi={A\bibinitperiod},
+           given={Andrea\bibnamedelima H},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=42f5731569ebd79f72c3b73766262505}{%
+           family={Axelsen},
+           familyi={A\bibinitperiod},
+           given={Kristian\bibnamedelima B},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a923ec9a0f95fe27c6fc574704cd3c82}{%
+           family={Bansal},
+           familyi={B\bibinitperiod},
+           given={Parit},
+           giveni={P\bibinitperiod}}}%
+        {{hash=da25b7ea90db37b3f86abdee71bb18ad}{%
+           family={Baratin},
+           familyi={B\bibinitperiod},
+           given={Delphine},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e19eb5b00c9dff07d9ee0b1610029e5c}{%
+           family={Batista\bibnamedelima Neto},
+           familyi={B\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Teresa\bibnamedelima M},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=40feaf46213beafa3b81c3ba7cb5f3aa}{%
+           family={Blatter},
+           familyi={B\bibinitperiod},
+           given={Marie-Claude},
+           giveni={M\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=99ba1370f2122df8162ba024126bf04c}{%
+           family={Bolleman},
+           familyi={B\bibinitperiod},
+           given={Jerven\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=2508d673170a44551e3a934294304c0a}{%
+           family={Boutet},
+           familyi={B\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=caea9e6c32f745b158038fcd4f0dfdc8}{%
+           family={Breuza},
+           familyi={B\bibinitperiod},
+           given={Lionel},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b225e52d59b954c43eec756ebb7e6dbf}{%
+           family={Gil},
+           familyi={G\bibinitperiod},
+           given={Blanca\bibnamedelima Cabrera},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=34a22966706b8b20573a8e305ef90e15}{%
+           family={Casals-Casas},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a30f05272ac162a2b62b791d52da9539}{%
+           family={Echioukh},
+           familyi={E\bibinitperiod},
+           given={Kamal\bibnamedelima Chikh},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6db0f7336e80f5e55c2dbff66e9adc7a}{%
+           family={Coudert},
+           familyi={C\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e3f81dbeb42990b35047e83258da9519}{%
+           family={Cuche},
+           familyi={C\bibinitperiod},
+           given={Beatrice},
+           giveni={B\bibinitperiod}}}%
+        {{hash=00e123b04fec44cec854c7529cc28b25}{%
+           family={De\bibnamedelima Castro},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Edouard},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d80d1c54742a1fb20bf17c8d72b1cafe}{%
+           family={Estreicher},
+           familyi={E\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=31e369b918a2d507ab21b09e6e2db07e}{%
+           family={Famiglietti},
+           familyi={F\bibinitperiod},
+           given={Maria\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=46cfb98d406b9dffbacd44499891d940}{%
+           family={Feuermann},
+           familyi={F\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7bae358589d7e6b200e91b7a5e89a385}{%
+           family={Gasteiger},
+           familyi={G\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=03174a30cabc73bc9be3c138d89caf24}{%
+           family={Gaudet},
+           familyi={G\bibinitperiod},
+           given={Pascale},
+           giveni={P\bibinitperiod}}}%
+        {{hash=506787a7271aeb4fcf6a87c2334416ce}{%
+           family={Gehant},
+           familyi={G\bibinitperiod},
+           given={Sebastien},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b01eed0916d5392be0645d22e74061d5}{%
+           family={Gerritsen},
+           familyi={G\bibinitperiod},
+           given={Vivienne},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8366038f7c88ae02c56feaae5fa0bd3d}{%
+           family={Gos},
+           familyi={G\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4dc82ef28076f7dfd418cc63f203dc5c}{%
+           family={Gruaz},
+           familyi={G\bibinitperiod},
+           given={Nadine},
+           giveni={N\bibinitperiod}}}%
+        {{hash=893b443d9b97e47b41547893d0409726}{%
+           family={Hulo},
+           familyi={H\bibinitperiod},
+           given={Chantal},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ce92b40b87a2d9b484a33eed7d99bf73}{%
+           family={Hyka-Nouspikel},
+           familyi={H\bibinithyphendelim N\bibinitperiod},
+           given={Nevila},
+           giveni={N\bibinitperiod}}}%
+        {{hash=cf3917f104150c6961b22e695210d45a}{%
+           family={Jungo},
+           familyi={J\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9442573cabc604f7bb5f45fed4749dd1}{%
+           family={Kerhornou},
+           familyi={K\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod}}}%
+        {{hash=efa4059884a559cc041a525115321678}{%
+           family={Le\bibnamedelima Mercier},
+           familyi={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7dac1638c49df3935ec34a13e4db5c5c}{%
+           family={Lieberherr},
+           familyi={L\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+        {{hash=63d5a08a4ff26747eae5894eefe43d64}{%
+           family={Masson},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=260539fc02fd6eabbce60b1c7c26e23a}{%
+           family={Morgat},
+           familyi={M\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aa039825c301ee20087c461d8c23f933}{%
+           family={Muthukrishnan},
+           familyi={M\bibinitperiod},
+           given={Venkatesh},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cae973e27f63f14bc2635ee53156be1a}{%
+           family={Paesano},
+           familyi={P\bibinitperiod},
+           given={Salvo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1bf78fc92a6fad0f45cce3adeb6218ca}{%
+           family={Pedruzzi},
+           familyi={P\bibinitperiod},
+           given={Ivo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=80bc6462854010f4212e978c581168b9}{%
+           family={Pilbout},
+           familyi={P\bibinitperiod},
+           given={Sandrine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cfd74dd75c08c9cc69c8f86653b189ee}{%
+           family={Pourcel},
+           familyi={P\bibinitperiod},
+           given={Lucille},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0ad3485ee484d0f64e2d822ccec43b1c}{%
+           family={Poux},
+           familyi={P\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=31bc89ccd068e0c6267e76e1b971cf4f}{%
+           family={Pozzato},
+           familyi={P\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1ce702117983b54158ae697777ddd0ff}{%
+           family={Pruess},
+           familyi={P\bibinitperiod},
+           given={Manuela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2cfb46ff9cd8ae6a297b28d42ff3f9ed}{%
+           family={Redaschi},
+           familyi={R\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d8bf1a6b3d2e5dd74e5a17feb498daee}{%
+           family={Rivoire},
+           familyi={R\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=565865a49f20154d8bd6482b1e252986}{%
+           family={Sigrist},
+           familyi={S\bibinitperiod},
+           given={Christian\bibnamedelimb J\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=082c24efc658aa828c1c60b17b9481a1}{%
+           family={Sonesson},
+           familyi={S\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=128da7d704bb5fa0e2bd8917cbaf570b}{%
+           family={Sundaram},
+           familyi={S\bibinitperiod},
+           given={Shyamala},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ea73b0150b09bc4245e9bf9198cdca94}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Cathy\bibnamedelima H},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=54f328c22d28c43930d455f78a399ee7}{%
+           family={Arighi},
+           familyi={A\bibinitperiod},
+           given={Cecilia\bibnamedelima N},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=9ef18187cf1e7c7a0088f636fbe3dfcc}{%
+           family={Arminski},
+           familyi={A\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod}}}%
+        {{hash=78afb540d96fe50236407e7c484fdc77}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chuming},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bf0e5b52328e152980934191844b0b85}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yongxing},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5f08b0c96de5d35f7c52625206f67b0a}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Hongzhan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e43ece5fa1abdb3cd0c5e6006d90faf0}{%
+           family={Laiho},
+           familyi={L\bibinitperiod},
+           given={Kati},
+           giveni={K\bibinitperiod}}}%
+        {{hash=98bc76aa4dfaa5810d170978c8185e15}{%
+           family={McGarvey},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bf100a72a9f468c42da600876e46189f}{%
+           family={Natale},
+           familyi={N\bibinitperiod},
+           given={Darren\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=abe8a1aefb9df907203ccad5f6134119}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6b68f6fd6b41ae37e4f302ea86bd505c}{%
+           family={Vinayaka},
+           familyi={V\bibinitperiod},
+           given={C\bibnamedelima R},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=05992ea86d503b2b934be7194642dd56}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qinghua},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=58bd8780f83626188ffe1ad029557801}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuqi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=112faefb37293f52cd92c3bb36fcc08b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c4634508fbb06c8009e69a5419ee189}
+      \strng{fullhash}{6563a7a3393928d3682a1084eee8337b}
+      \strng{bibnamehash}{5c4634508fbb06c8009e69a5419ee189}
+      \strng{authorbibnamehash}{5c4634508fbb06c8009e69a5419ee189}
+      \strng{authornamehash}{5c4634508fbb06c8009e69a5419ee189}
+      \strng{authorfullhash}{6563a7a3393928d3682a1084eee8337b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The aim of the UniProt Knowledgebase is to provide users with a comprehensive, high-quality and freely accessible set of protein sequences annotated with functional information. In this publication we describe enhancements made to our data processing pipeline and to our website to adapt to an everincreasing information content. The number of sequences in UniProtKB has risen to over 227 million and we are working towards including a reference proteome for each taxonomic group. We continue to extract detailed annotations from the literature to update or create reviewed entries, while unreviewed entries are supplemented with annotations provided by automated systems using a variety of machine-learning techniques. In addition, the scientific community continues their contributions of publications and annotations to UniProt entries of their interest. Finally, we describe our new website (https://www.uniprot.org/), designed to enhance our users’ experience and make our data easily accessible to the research community. This interface includes access to AlphaFold structures for more than 85\% of all entries as well as improved visualisations for subcellular localisation of proteins.}
+      \field{day}{6}
+      \field{issn}{0305-1048, 1362-4962}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{D1}
+      \field{shorttitle}{{{UniProt}}}
+      \field{title}{{{UniProt}}: The {{Universal Protein Knowledgebase}} in 2023}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{51}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{D523\bibrangedash D531}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkac1052
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/QXP3YF8K/The UniProt Consortium et al. - 2023 - UniProt the Universal Protein Knowledgebase in 20.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/nar/article/51/D1/D523/6835362
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/nar/article/51/D1/D523/6835362
+      \endverb
+    \endentry
+    \entry{goldford2024}{article}{}
+      \name{author}{5}{}{%
+        {{hash=dfb5cea7f85e458c7f19eeafe48f9fc7}{%
+           family={Goldford},
+           familyi={G\bibinitperiod},
+           given={Joshua\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6b34e7b51c1433bcab118569a5caf8be}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Harrison\bibnamedelima B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=98252ac6473adfa4a1b031cd6542bb95}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Liam\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=348bd55d3f7afa3b8086e9f4ed955136}{%
+           family={Wing},
+           familyi={W\bibinitperiod},
+           given={Boswell\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4653d2c8454f4cc535e007b055f65455}{%
+           family={McGlynn},
+           familyi={M\bibinitperiod},
+           given={Shawn\bibnamedelima Erin},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{49874c8a60a2179a2b69e12e3b8335b0}
+      \strng{fullhash}{42af77b36a769b7fb6141712f4707650}
+      \strng{bibnamehash}{42af77b36a769b7fb6141712f4707650}
+      \strng{authorbibnamehash}{42af77b36a769b7fb6141712f4707650}
+      \strng{authornamehash}{49874c8a60a2179a2b69e12e3b8335b0}
+      \strng{authorfullhash}{42af77b36a769b7fb6141712f4707650}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{issn}{2397-334X}
+      \field{journaltitle}{Nat Ecol Evol}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Primitive Purine Biosynthesis Connects Ancient Geochemistry to Modern Metabolism}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1038/s41559-024-02361-4
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/W6U3E8ZI/Goldford et al. - 2024 - Primitive purine biosynthesis connects ancient geo.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41559-024-02361-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41559-024-02361-4
+      \endverb
+    \endentry
+    \entry{beber2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=c4f4a40172fbef8b53c06b20fe55cd1f}{%
+           family={Beber},
+           familyi={B\bibinitperiod},
+           given={Moritz\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=0fb9d105267f0b95defbb1efadb2e45a}{%
+           family={Gollub},
+           familyi={G\bibinitperiod},
+           given={Mattia\bibnamedelima G},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=38a6eb1dfefbc28bcc3426657713dbdd}{%
+           family={Mozaffari},
+           familyi={M\bibinitperiod},
+           given={Dana},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e0b3aded4a4651161eac92835b430cd4}{%
+           family={Shebek},
+           familyi={S\bibinitperiod},
+           given={Kevin\bibnamedelima M},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=101fe9ced3f68c156c954d2575866c2f}{%
+           family={Flamholz},
+           familyi={F\bibinitperiod},
+           given={Avi\bibnamedelima I},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=9fed56718464421f939e0b0d84997792}{%
+           family={Milo},
+           familyi={M\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a5dfa5eaf997d540eefd077c226d6a43}{%
+           family={Noor},
+           familyi={N\bibinitperiod},
+           given={Elad},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{332aef45dc651a57b67fbbed18095996}
+      \strng{fullhash}{a7cd739a3d0d5b259baf17ca61dac2e4}
+      \strng{bibnamehash}{332aef45dc651a57b67fbbed18095996}
+      \strng{authorbibnamehash}{332aef45dc651a57b67fbbed18095996}
+      \strng{authornamehash}{332aef45dc651a57b67fbbed18095996}
+      \strng{authorfullhash}{a7cd739a3d0d5b259baf17ca61dac2e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract eQuilibrator (equilibrator.weizmann.ac.il) is a database of biochemical equilibrium constants and Gibbs free energies, originally designed as a web-based interface. While the website now counts around 1,000 distinct monthly users, its design could not accommodate larger compound databases and it lacked a scalable Application Programming Interface (API) for integration into other tools developed by the systems biology community. Here, we report on the recent updates to the database as well as the addition of a new Python-based interface to eQuilibrator that adds many new features such as a 100-fold larger compound database, the ability to add novel compounds, improvements in speed and memory use, and correction for Mg2+ ion concentrations. Moreover, the new interface can compute the covariance matrix of the uncertainty between estimates, for which we show the advantages and describe the application in metabolic modelling. We foresee that these improvements will make thermodynamic modelling more accessible and facilitate the integration of eQuilibrator into other software platforms.}
+      \field{day}{7}
+      \field{issn}{0305-1048, 1362-4962}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{D1}
+      \field{shorttitle}{{{eQuilibrator}} 3.0}
+      \field{title}{{{eQuilibrator}} 3.0: A Database Solution for Thermodynamic Constant Estimation}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{50}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{D603\bibrangedash D609}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkab1106
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/HB6U4EK2/Beber et al. - 2022 - eQuilibrator 3.0 a database solution for thermody.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/nar/article/50/D1/D603/6445959
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/nar/article/50/D1/D603/6445959
+      \endverb
+    \endentry
+    \entry{vincent2021}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=c0cf8456e528a89928f190fd282117f9}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={Salom\bibnamedelimb Gnana\bibnamedelima Thanga},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=be9ecb9511172038d08f1229e448cf58}{%
+           family={Jennerjahn},
+           familyi={J\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ee60490fdf5f8270153aea8041412981}{%
+           family={Ramasamy},
+           familyi={R\bibinitperiod},
+           given={Kumarasamy},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{21ccca6b48eeb4f7ce9f2e0eaeff6cbb}
+      \strng{fullhash}{077897b02760db8240a3f190cffe4d3b}
+      \strng{bibnamehash}{077897b02760db8240a3f190cffe4d3b}
+      \strng{authorbibnamehash}{077897b02760db8240a3f190cffe4d3b}
+      \strng{authornamehash}{21ccca6b48eeb4f7ce9f2e0eaeff6cbb}
+      \strng{authorfullhash}{077897b02760db8240a3f190cffe4d3b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Microbial {{Communities}} in {{Coastal Sediments}}}
+      \field{isbn}{978-0-12-815165-5}
+      \field{langid}{english}
+      \field{title}{Environmental Variables and Factors Regulating Microbial Structure and Functions}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{79\bibrangedash 117}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-815165-5.00003-0
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/NSUL8MSR/Vincent et al. - 2021 - Environmental variables and factors regulating mic.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780128151655000030
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780128151655000030
+      \endverb
+    \endentry
+    \entry{handorf2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e4f8b85554421ed2ede06f3b31b7f3b5}{%
+           family={Handorf},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c5225f689e33ff0b6a10ca12994762a9}{%
+           family={Ebenhöh},
+           familyi={E\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=2a56aa08820a7809739cb8867b901146}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Reinhart},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b47d23044c26a349470f678399f053f0}
+      \strng{fullhash}{fd6c2c788f0604b731674d70b396f1c5}
+      \strng{bibnamehash}{fd6c2c788f0604b731674d70b396f1c5}
+      \strng{authorbibnamehash}{fd6c2c788f0604b731674d70b396f1c5}
+      \strng{authornamehash}{b47d23044c26a349470f678399f053f0}
+      \strng{authorfullhash}{fd6c2c788f0604b731674d70b396f1c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A new method for the mathematical analysis of large metabolic networks is presented. Based on the fact that the occurrence of a metabolic reaction generally requires the existence of other reactions providing its substrates, series of metabolic networks are constructed. In each step of the corresponding expansion process those reactions are incorporated whose substrates are made available by the networks of the previous generations. The method is applied to the set of all metabolic reactions included in the KEGG database. Starting with one or more seed compounds, the expansion results in a final network whose compounds define the scope of the seed. Scopes of all metabolic compounds are calculated and it is shown that large parts of cellular metabolism can be considered as the combined scope of simple building blocks. Analyses of various expansion processes reveal crucial metabolites whose incorporation allows for the increase in network complexity. Among these metabolites are common cofactors such as NAD+, ATP, and coenzyme A. We demonstrate that the outcome of network expansion is in general very robust against elimination of single or few reactions. There exist, however, crucial reactions whose elimination results in a dramatic reduction of scope sizes. It is hypothesized that the expansion process displays characteristics of the evolution of metabolism such as the temporal order of the emergence of metabolic pathways.}
+      \field{issn}{0022-2844, 1432-1432}
+      \field{journaltitle}{J Mol Evol}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{shorttitle}{Expanding {{Metabolic Networks}}}
+      \field{title}{Expanding {{Metabolic Networks}}: {{Scopes}} of {{Compounds}}, {{Robustness}}, and {{Evolution}}}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{61}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{498\bibrangedash 512}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s00239-005-0027-1
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/QN9IZE7N/Handorf et al. - 2005 - Expanding Metabolic Networks Scopes of Compounds,.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s00239-005-0027-1
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s00239-005-0027-1
+      \endverb
+    \endentry
+    \entry{kuzniar2008}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4a2a130e27eeead11a0a87584626783c}{%
+           family={Kuzniar},
+           familyi={K\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod}}}%
+        {{hash=92f5e8eb4533542220dbdb7124180d8b}{%
+           family={Van\bibnamedelima Ham},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Roeland\bibnamedelima C.H.J.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=49eed50c28b69715427e2a21a37ff1af}{%
+           family={Pongor},
+           familyi={P\bibinitperiod},
+           given={Sándor},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8725cbe2fba4e1e68da36acd2c19de5a}{%
+           family={Leunissen},
+           familyi={L\bibinitperiod},
+           given={Jack\bibnamedelima A.M.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{61917d0457b0025e02fbb612c13dda71}
+      \strng{fullhash}{38fdae17d30ae3679910270718b446de}
+      \strng{bibnamehash}{38fdae17d30ae3679910270718b446de}
+      \strng{authorbibnamehash}{38fdae17d30ae3679910270718b446de}
+      \strng{authornamehash}{61917d0457b0025e02fbb612c13dda71}
+      \strng{authorfullhash}{38fdae17d30ae3679910270718b446de}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{01689525}
+      \field{journaltitle}{Trends in Genetics}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shorttitle}{The Quest for Orthologs}
+      \field{title}{The Quest for Orthologs: Finding the Corresponding Gene across Genomes}
+      \field{urlday}{15}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{24}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{539\bibrangedash 551}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.tig.2008.08.009
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/GNK2GNFW/Kuzniar et al. - 2008 - The quest for orthologs finding the corresponding.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0168952508002278
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0168952508002278
+      \endverb
+    \endentry
+    \entry{graybeal1998}{article}{}
+      \name{author}{1}{}{%
+        {{hash=68400dea96d5bcca94c800574ac2bfb8}{%
+           family={Graybeal},
+           familyi={G\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=3139e3476c62bbab48b40194abb62e7c}{%
+           family={Cannatella},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{68400dea96d5bcca94c800574ac2bfb8}
+      \strng{fullhash}{68400dea96d5bcca94c800574ac2bfb8}
+      \strng{bibnamehash}{68400dea96d5bcca94c800574ac2bfb8}
+      \strng{authorbibnamehash}{68400dea96d5bcca94c800574ac2bfb8}
+      \strng{authornamehash}{68400dea96d5bcca94c800574ac2bfb8}
+      \strng{authorfullhash}{68400dea96d5bcca94c800574ac2bfb8}
+      \strng{editorbibnamehash}{3139e3476c62bbab48b40194abb62e7c}
+      \strng{editornamehash}{3139e3476c62bbab48b40194abb62e7c}
+      \strng{editorfullhash}{3139e3476c62bbab48b40194abb62e7c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1076-836X, 1063-5157}
+      \field{journaltitle}{Systematic Biology}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Is {{It Better}} to {{Add Taxa}} or {{Characters}} to a {{Difficult Phylogenetic Problem}}?}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{47}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{9\bibrangedash 17}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1080/106351598260996
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/U2EB4LSM/Graybeal - 1998 - Is It Better to Add Taxa or Characters to a Diffic.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://academic.oup.com/sysbio/article/47/1/9/1623577
+      \endverb
+      \verb{url}
+      \verb http://academic.oup.com/sysbio/article/47/1/9/1623577
+      \endverb
+    \endentry
+    \entry{martinez-gutierrez2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6cc2a79f59e9a6d4ca330e349e5dc288}{%
+           family={Martinez-Gutierrez},
+           familyi={M\bibinithyphendelim G\bibinitperiod},
+           given={Carolina\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9b3ea2793d4799b17d9cadf5fff858ea}{%
+           family={Aylward},
+           familyi={A\bibinitperiod},
+           given={Frank\bibnamedelima O},
+           giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=e941971c577b1c7c948ecc492dfbab0a}{%
+           family={Battistuzzi},
+           familyi={B\bibinitperiod},
+           given={Fabia\bibnamedelima Ursula},
+           giveni={F\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{306d3cbfc227745c5d2d5f031bc66674}
+      \strng{fullhash}{306d3cbfc227745c5d2d5f031bc66674}
+      \strng{bibnamehash}{306d3cbfc227745c5d2d5f031bc66674}
+      \strng{authorbibnamehash}{306d3cbfc227745c5d2d5f031bc66674}
+      \strng{authornamehash}{306d3cbfc227745c5d2d5f031bc66674}
+      \strng{authorfullhash}{306d3cbfc227745c5d2d5f031bc66674}
+      \strng{editorbibnamehash}{e941971c577b1c7c948ecc492dfbab0a}
+      \strng{editornamehash}{e941971c577b1c7c948ecc492dfbab0a}
+      \strng{editorfullhash}{e941971c577b1c7c948ecc492dfbab0a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reconstruction of the Tree of Life is a central goal in biology. Although numerous novel phyla of bacteria and archaea have recently been discovered, inconsistent phylogenetic relationships are routinely reported, and many inter-phylum and inter-domain evolutionary relationships remain unclear. Here, we benchmark different marker genes often used in constructing multidomain phylogenetic trees of bacteria and archaea and present a set of marker genes that perform best for multidomain trees constructed from concatenated alignments. We use recently-developed Tree Certainty metrics to assess the confidence of our results and to obviate the complications of traditional bootstrap-based metrics. Given the vastly disparate number of genomes available for different phyla of bacteria and archaea, we also assessed the impact of taxon sampling on multidomain tree construction. Our results demonstrate that biases between the representation of different taxonomic groups can dramatically impact the topology of resulting trees. Inspection of our highest-quality tree supports the division of most bacteria into Terrabacteria and Gracilicutes, with Thermatogota and Synergistota branching earlier from these superphyla. This tree also supports the inclusion of the Patescibacteria within the Terrabacteria as a sister group to the Chloroflexota instead of as a basal-branching lineage. For the Archaea, our tree supports three monophyletic lineages (DPANN, Euryarchaeota, and TACK/Asgard), although we note the basal placement of the DPANN may still represent an artifact caused by biased sequence composition. Our findings provide a robust and standardized framework for multidomain phylogenetic reconstruction that can be used to evaluate inter-phylum relationships and assess uncertainty in conflicting topologies of the Tree of Life.}
+      \field{day}{9}
+      \field{issn}{1537-1719}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Phylogenetic {{Signal}}, {{Congruence}}, and {{Uncertainty}} across {{Bacteria}} and {{Archaea}}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{38}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5514\bibrangedash 5527}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1093/molbev/msab254
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/Y2GUFI5N/Martinez-Gutierrez and Aylward - 2021 - Phylogenetic Signal, Congruence, and Uncertainty a.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mbe/article/38/12/5514/6358142
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mbe/article/38/12/5514/6358142
+      \endverb
+      \keyw{for_thesis}
+    \endentry
+    \entry{emms2018}{online}{}
+      \name{author}{2}{}{%
+        {{hash=7cdb9569f05a8a0477e1ed5788bfd392}{%
+           family={Emms},
+           familyi={E\bibinitperiod},
+           given={D.M.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=245b97d6393aeebdbe487c9499c7a448}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e47650ec68e0d80521bac980fc5a6693}
+      \strng{fullhash}{e47650ec68e0d80521bac980fc5a6693}
+      \strng{bibnamehash}{e47650ec68e0d80521bac980fc5a6693}
+      \strng{authorbibnamehash}{e47650ec68e0d80521bac980fc5a6693}
+      \strng{authornamehash}{e47650ec68e0d80521bac980fc5a6693}
+      \strng{authorfullhash}{e47650ec68e0d80521bac980fc5a6693}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Species tree inference is fundamental to our understanding of the evolution of life on earth. However, species tree inference from molecular sequence data is complicated by gene duplication events that limit the availably of suitable data for phylogenetic reconstruction. Here we propose a novel method for species tree inference called STAG that is specifically designed to leverage data from multi-copy gene families. By application to 12 real species datasets sampled from across the eukaryotic domain we demonstrate that species trees inferred from multi-copy gene families are comparable in accuracy to species trees inferred from single-copy orthologues. We further show that the ability to utilise data from multi-copy gene families increases the amount of data available for species tree inference by an average of 8 fold. We reveal that on real species datasets STAG has higher accuracy than other leading methods for species tree inference; including concatenated alignments of protein sequences, ASTRAL \& NJst. Finally we show that STAG is fast, memory efficient and scalable and thus suitable for analysis of large multispecies datasets.}
+      \field{day}{19}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{{{STAG}}}
+      \field{title}{{{STAG}}: {{Species Tree Inference}} from {{All Genes}}}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1101/267914
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/RJ2UTCDE/Emms and Kelly - 2018 - STAG Species Tree Inference from All Genes.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://biorxiv.org/lookup/doi/10.1101/267914
+      \endverb
+      \verb{url}
+      \verb http://biorxiv.org/lookup/doi/10.1101/267914
+      \endverb
+    \endentry
+    \entry{emms2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b4ea4304819e188471a5eada10434eae}{%
+           family={Emms},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7bd80201e7cc94ca1380c83382f6725d}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{fullhash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{bibnamehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{authorbibnamehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{authornamehash}{58e236a4d25c4807c1e911ec42317f37}
+      \strng{authorfullhash}{58e236a4d25c4807c1e911ec42317f37}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The correct interpretation of any phylogenetic tree is dependent on that tree being correctly rooted. We present STRIDE, a fast, effective, and outgroup-free method for identification of gene duplication events and species tree root inference in large-scale molecular phylogenetic analyses. STRIDE identifies sets of well-supported in-group gene duplication events from a set of unrooted gene trees, and analyses these events to infer a probability distribution over an unrooted species tree for the location of its root. We show that STRIDE correctly identifies the root of the species tree in multiple largescale molecular phylogenetic data sets spanning a wide range of timescales and taxonomic groups. We demonstrate that the novel probability model implemented in STRIDE can accurately represent the ambiguity in species tree root assignment for data sets where information is limited. Furthermore, application of STRIDE to outgroup-free inference of the origin of the eukaryotic tree resulted in a root probability distribution that provides additional support for leading hypotheses for the origin of the eukaryotes.}
+      \field{day}{1}
+      \field{issn}{0737-4038, 1537-1719}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shorttitle}{{{STRIDE}}}
+      \field{title}{{{STRIDE}}: {{Species Tree Root Inference}} from {{Gene Duplication Events}}}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{34}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3267\bibrangedash 3278}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1093/molbev/msx259
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/YJ6N6F6A/Emms and Kelly - 2017 - STRIDE Species Tree Root Inference from Gene Dupl.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mbe/article/34/12/3267/4259048
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mbe/article/34/12/3267/4259048
+      \endverb
+    \endentry
+    \entry{huson2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a4ecd8c07c458a21a3731a3916efc66f}{%
+           family={Huson},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1b9f30d2895c9eb26cb8a004e035bbe0}{%
+           family={Scornavacca},
+           familyi={S\bibinitperiod},
+           given={Celine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{09f13db4ae966da0fdabd1449bfe319d}
+      \strng{fullhash}{09f13db4ae966da0fdabd1449bfe319d}
+      \strng{bibnamehash}{09f13db4ae966da0fdabd1449bfe319d}
+      \strng{authorbibnamehash}{09f13db4ae966da0fdabd1449bfe319d}
+      \strng{authornamehash}{09f13db4ae966da0fdabd1449bfe319d}
+      \strng{authorfullhash}{09f13db4ae966da0fdabd1449bfe319d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{1076-836X, 1063-5157}
+      \field{journaltitle}{Systematic Biology}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{6}
+      \field{shorttitle}{Dendroscope 3}
+      \field{title}{Dendroscope 3: {{An Interactive Tool}} for {{Rooted Phylogenetic Trees}} and {{Networks}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{61}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1061\bibrangedash 1067}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/sysbio/sys062
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/NWCEVWGD/sys062.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/sysbio/article/61/6/1061/1666897
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/sysbio/article/61/6/1061/1666897
+      \endverb
+    \endentry
+    \entry{kreimer2008}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d297243dcd574d7db199a1c71f7c6581}{%
+           family={Kreimer},
+           familyi={K\bibinitperiod},
+           given={Anat},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f627df52921c280007e8866871724e9a}{%
+           family={Borenstein},
+           familyi={B\bibinitperiod},
+           given={Elhanan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c2080302988e9938a37a676dcdd87ce1}{%
+           family={Gophna},
+           familyi={G\bibinitperiod},
+           given={Uri},
+           giveni={U\bibinitperiod}}}%
+        {{hash=1b53b5f21cdfcffa4afebd72c43a079c}{%
+           family={Ruppin},
+           familyi={R\bibinitperiod},
+           given={Eytan},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea27aace228d1624069ca67e2d283c96}
+      \strng{fullhash}{45a30af450539734d50ebeb9e141a908}
+      \strng{bibnamehash}{45a30af450539734d50ebeb9e141a908}
+      \strng{authorbibnamehash}{45a30af450539734d50ebeb9e141a908}
+      \strng{authornamehash}{ea27aace228d1624069ca67e2d283c96}
+      \strng{authorfullhash}{45a30af450539734d50ebeb9e141a908}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Deciphering the modular organization of metabolic networks and understanding how modularity evolves have attracted tremendous interest in recent years. Here, we present a comprehensive large scale characterization of modularity across the bacterial tree of life, systematically quantifying the modularity of the metabolic networks of {$>$}300 bacterial species. Three main determinants of metabolic network modularity are identified. First, network size is an important topological determinant of network modularity. Second, several environmental factors influence network modularity, with endosymbionts and mammal-specific pathogens having lower modularity scores than bacterial species that occupy a wider range of niches. Moreover, even among the pathogens, those that alternate between two distinct niches, such as insect and mammal, tend to have relatively high metabolic network modularity. Third, horizontal gene transfer is an important force that contributes significantly to metabolic modularity. We additionally reconstruct the metabolic network of ancestral bacterial species and examine the evolution of modularity across the tree of life. This reveals a trend of modularity decrease from ancestors to descendants that is likely the outcome of niche specialization and the incorporation of peripheral metabolic reactions.}
+      \field{day}{13}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proc. Natl. Acad. Sci. U.S.A.}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{19}
+      \field{title}{The Evolution of Modularity in Bacterial Metabolic Networks}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{105}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{6976\bibrangedash 6981}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.0712149105
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/AWHAEC9C/Kreimer et al. - 2008 - The evolution of modularity in bacterial metabolic.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pnas.org/doi/full/10.1073/pnas.0712149105
+      \endverb
+      \verb{url}
+      \verb https://pnas.org/doi/full/10.1073/pnas.0712149105
+      \endverb
+      \keyw{TBR}
+    \endentry
+    \entry{dombrowski2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6612a2c105fed2890e40d91a9706021a}{%
+           family={Dombrowski},
+           familyi={D\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bc83185aab17c35dcffbcf71d6de2d96}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jun-Hoe},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=961abb192613e4c0ec33dfb96e27c891}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Tom\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=546bbb13a20b6128c9f51bf766f04574}{%
+           family={Offre},
+           familyi={O\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f54ed48d73a2e8a0596652934237f4c1}{%
+           family={Spang},
+           familyi={S\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc9bafd3e0981a82dd55a35637ac046a}
+      \strng{fullhash}{cbe5864816f4ec2724409ade235a5698}
+      \strng{bibnamehash}{cbe5864816f4ec2724409ade235a5698}
+      \strng{authorbibnamehash}{cbe5864816f4ec2724409ade235a5698}
+      \strng{authornamehash}{bc9bafd3e0981a82dd55a35637ac046a}
+      \strng{authorfullhash}{cbe5864816f4ec2724409ade235a5698}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Archaea—a primary domain of life besides Bacteria—have for a long time been regarded as peculiar organisms that play marginal roles in biogeochemical cycles. However, this picture changed with the discovery of a large diversity of archaea in non-extreme environments enabled by the use of cultivation-independent methods. These approaches have allowed the reconstruction of genomes of uncultivated microorganisms and revealed that archaea are diverse and broadly distributed in the biosphere and seemingly include a large diversity of putative symbiotic organisms, most of which belong to the tentative archaeal superphylum referred to as DPANN. This archaeal group encompasses at least 10 different lineages and includes organisms with extremely small cell and genome sizes and limited metabolic capabilities. Therefore, many members of DPANN may be obligately dependent on symbiotic interactions with other organisms and may even include novel parasites. In this contribution, we review the current knowledge of the gene repertoires and lifestyles of members of this group and discuss their placement in the tree of life, which is the basis for our understanding of the deep microbial roots and the role of symbiosis in the evolution of life on Earth.}
+      \field{day}{1}
+      \field{issn}{1574-6968}
+      \field{journaltitle}{FEMS Microbiology Letters}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Genomic Diversity, Lifestyles and Evolutionary Origins of {{DPANN}} Archaea}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{366}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1093/femsle/fnz008
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/42I8QBL5/Dombrowski et al. - 2019 - Genomic diversity, lifestyles and evolutionary ori.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/femsle/article/doi/10.1093/femsle/fnz008/5281434
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/femsle/article/doi/10.1093/femsle/fnz008/5281434
+      \endverb
+    \endentry
+    \entry{dombrowski2020}{article}{}
+      \name{author}{8}{}{%
+        {{hash=6612a2c105fed2890e40d91a9706021a}{%
+           family={Dombrowski},
+           familyi={D\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod}}}%
+        {{hash=961abb192613e4c0ec33dfb96e27c891}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Tom\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=488fbca40f1fcd4258db4ad72831af16}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jiarui},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3803f2445a8b0a49f521ac663feb3e38}{%
+           family={Woodcroft},
+           familyi={W\bibinitperiod},
+           given={Benjamin\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=bc83185aab17c35dcffbcf71d6de2d96}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jun-Hoe},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=3331b2b694c3c86ff90fcece74fcfa30}{%
+           family={Minh},
+           familyi={M\bibinitperiod},
+           given={Bui\bibnamedelima Quang},
+           giveni={B\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=018307b60b9c2a4c7f43f0f7b4f85f2b}{%
+           family={Rinke},
+           familyi={R\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f54ed48d73a2e8a0596652934237f4c1}{%
+           family={Spang},
+           familyi={S\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc9bafd3e0981a82dd55a35637ac046a}
+      \strng{fullhash}{91fbe28afa4bf909bbce57503e730de5}
+      \strng{bibnamehash}{bc9bafd3e0981a82dd55a35637ac046a}
+      \strng{authorbibnamehash}{bc9bafd3e0981a82dd55a35637ac046a}
+      \strng{authornamehash}{bc9bafd3e0981a82dd55a35637ac046a}
+      \strng{authorfullhash}{91fbe28afa4bf909bbce57503e730de5}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The recently discovered DPANN archaea are a potentially deep-branching, monophyletic radiation of organisms with small cells and genomes. However, the monophyly and early emergence of the various DPANN clades and their role in life’s evolution are debated. Here, we reconstructed and analysed genomes of an uncharacterized archaeal phylum ( Candidatus Undinarchaeota), revealing that its members have small genomes and, while potentially being able to conserve energy through fermentation, likely depend on partner organisms for the acquisition of certain metabolites. Our phylogenomic analyses robustly place Undinarchaeota as~an independent lineage between two highly supported ‘DPANN’ clans. Further, our analyses suggest that DPANN have exchanged core genes with their hosts, adding to the difficulty of placing DPANN in the tree of life. This pattern can be sufficiently dominant to allow identifying known symbiont-host clades based on routes of gene transfer. Together, our work provides insights into the~origins and evolution of DPANN and their hosts.}
+      \field{day}{7}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nat Commun}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{Undinarchaeota Illuminate {{DPANN}} Phylogeny and the Impact of Gene Transfer on Archaeal Evolution}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3939}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-020-17408-w
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/IYQQWSPN/Dombrowski et al. - 2020 - Undinarchaeota illuminate DPANN phylogeny and the .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41467-020-17408-w
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41467-020-17408-w
+      \endverb
+    \endentry
+    \entry{doolittle2003}{article}{}
+      \name{author}{6}{}{%
+        {{hash=1ccb2164f7f37a04b96ad4af6c29f796}{%
+           family={Doolittle},
+           familyi={D\bibinitperiod},
+           given={W.\bibnamedelimi F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=580e24d07d0f392f80eabd11cd505f11}{%
+           family={Boucher},
+           familyi={B\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=30fd7f0419f3f0feeab166b93c0313e6}{%
+           family={NesbØ},
+           familyi={N\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0329627695175e5b76610b13bedb91a1}{%
+           family={Douady},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=85293e82758a05331dff4e8523b8d79f}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=47543b406d81a6400d7538e2ff4f0ff4}{%
+           family={Roger},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=eb44e29058ec9966daa05a4ca386aa67}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=0e8985be557ba038f19dc98e6065196f}{%
+           family={Raven},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1742a6e5ab2f24645fe5349b74f239ca}
+      \strng{fullhash}{597cbcad76ef4885b04b86f71a2b0665}
+      \strng{bibnamehash}{1742a6e5ab2f24645fe5349b74f239ca}
+      \strng{authorbibnamehash}{1742a6e5ab2f24645fe5349b74f239ca}
+      \strng{authornamehash}{1742a6e5ab2f24645fe5349b74f239ca}
+      \strng{authorfullhash}{597cbcad76ef4885b04b86f71a2b0665}
+      \strng{editorbibnamehash}{2a48079c70753b996073696d3bb1fdd0}
+      \strng{editornamehash}{2a48079c70753b996073696d3bb1fdd0}
+      \strng{editorfullhash}{2a48079c70753b996073696d3bb1fdd0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As more and more complete bacterial and archaeal genome sequences become available, the role of lateral gene transfer (LGT) in shaping them becomes more and more clear. Over the long term, it may be the dominant force, affecting most genes in most prokaryotes. We review the history of LGT, suggesting reasons why its prevalence and impact were so long dismissed. We discuss various methods purporting to measure the extent of LGT, and evidence for and against the notion that there is a core of never–exchanged genes shared by all genomes, from which we can deduce the ‘true’ organismal tree. We also consider evidence for, and implications of, LGT between prokaryotes and phagocytic eukaryotes.}
+      \field{day}{29}
+      \field{issn}{0962-8436, 1471-2970}
+      \field{journaltitle}{Phil. Trans. R. Soc. Lond. B}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1429}
+      \field{title}{How Big Is the Iceberg of Which Organellar Genes in Nuclear Genomes Are but the Tip?}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{358}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{39\bibrangedash 58}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1098/rstb.2002.1185
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/EDXWE8YY/Doolittle et al. - 2003 - How big is the iceberg of which organellar genes i.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://royalsocietypublishing.org/doi/10.1098/rstb.2002.1185
+      \endverb
+      \verb{url}
+      \verb https://royalsocietypublishing.org/doi/10.1098/rstb.2002.1185
+      \endverb
+    \endentry
+    \entry{ochman2000}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3d303f7e21e7fe8c7c6c45e5c0c0209e}{%
+           family={Ochman},
+           familyi={O\bibinitperiod},
+           given={Howard},
+           giveni={H\bibinitperiod}}}%
+        {{hash=845420db0e0f4aa97342d6eab9b78c66}{%
+           family={Lawrence},
+           familyi={L\bibinitperiod},
+           given={Jeffrey\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=238fcfe9f5593b26070d9055c85cac54}{%
+           family={Groisman},
+           familyi={G\bibinitperiod},
+           given={Eduardo\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5caa07a8e4f2bb9ac0a7b9f996970b5}
+      \strng{fullhash}{4eba13c3c63d07e8f7bc6eb265922a91}
+      \strng{bibnamehash}{4eba13c3c63d07e8f7bc6eb265922a91}
+      \strng{authorbibnamehash}{4eba13c3c63d07e8f7bc6eb265922a91}
+      \strng{authornamehash}{b5caa07a8e4f2bb9ac0a7b9f996970b5}
+      \strng{authorfullhash}{4eba13c3c63d07e8f7bc6eb265922a91}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Lateral Gene Transfer and the Nature of Bacterial Innovation}
+      \field{volume}{405}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/7IAEEXH6/Ochman et al. - 2000 - Lateral gene transfer and the nature of bacterial .pdf
+      \endverb
+    \endentry
+    \entry{szollosi2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e2b2d0a03051348b91dc1add6c854896}{%
+           family={Szöllősi},
+           familyi={S\bibinitperiod},
+           given={Gergely\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=75de7338cd5f2aeb655ce03f43575c7c}{%
+           family={Rosikiewicz},
+           familyi={R\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod}}}%
+        {{hash=40423642ab51b329f427bf3afc0487f1}{%
+           family={Boussau},
+           familyi={B\bibinitperiod},
+           given={Bastien},
+           giveni={B\bibinitperiod}}}%
+        {{hash=665609724744d366cc60df354988a5cf}{%
+           family={Tannier},
+           familyi={T\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=44af79eb9256a3ac143ff690a5011573}{%
+           family={Daubin},
+           familyi={D\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c87f4de0c9cee6351b85ce7e6a427d8}
+      \strng{fullhash}{64c4abfb02a85d3a9f0f74f78982edb6}
+      \strng{bibnamehash}{64c4abfb02a85d3a9f0f74f78982edb6}
+      \strng{authorbibnamehash}{64c4abfb02a85d3a9f0f74f78982edb6}
+      \strng{authornamehash}{5c87f4de0c9cee6351b85ce7e6a427d8}
+      \strng{authorfullhash}{64c4abfb02a85d3a9f0f74f78982edb6}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1076-836X, 1063-5157}
+      \field{journaltitle}{Systematic Biology}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{6}
+      \field{title}{Efficient {{Exploration}} of the {{Space}} of {{Reconciled Gene Trees}}}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{62}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{901\bibrangedash 912}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1093/sysbio/syt054
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/BPX46VQ6/Szöllősi et al. - 2013 - Efficient Exploration of the Space of Reconciled G.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/sysbio/article/62/6/901/1711882
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/sysbio/article/62/6/901/1711882
+      \endverb
+    \endentry
+    \entry{szollosi2015}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e2b2d0a03051348b91dc1add6c854896}{%
+           family={Szöllősi},
+           familyi={S\bibinitperiod},
+           given={Gergely\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4347bb478fe162abe1d5eb788ab1ac19}{%
+           family={Davín},
+           familyi={D\bibinitperiod},
+           given={Adrián\bibnamedelima Arellano},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=665609724744d366cc60df354988a5cf}{%
+           family={Tannier},
+           familyi={T\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=44af79eb9256a3ac143ff690a5011573}{%
+           family={Daubin},
+           familyi={D\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=40423642ab51b329f427bf3afc0487f1}{%
+           family={Boussau},
+           familyi={B\bibinitperiod},
+           given={Bastien},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c87f4de0c9cee6351b85ce7e6a427d8}
+      \strng{fullhash}{db1e7909308ab2197cc3eef3ffcbb093}
+      \strng{bibnamehash}{db1e7909308ab2197cc3eef3ffcbb093}
+      \strng{authorbibnamehash}{db1e7909308ab2197cc3eef3ffcbb093}
+      \strng{authornamehash}{5c87f4de0c9cee6351b85ce7e6a427d8}
+      \strng{authorfullhash}{db1e7909308ab2197cc3eef3ffcbb093}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although the role of lateral gene transfer is well recognized in the evolution of bacteria, it is generally assumed that it has had less influence among eukaryotes. To explore this hypothesis, we compare the dynamics of genome evolution in two groups of organisms: cyanobacteria and fungi. Ancestral genomes are inferred in both clades using two types of methods: first, Count , a gene tree unaware method that models gene duplications, gains and losses to explain the observed numbers of genes present in a genome; second, ALE, a more recent gene tree-aware method that reconciles gene trees with a species tree using a model of gene duplication, loss and transfer. We compare their merits and their ability to quantify the role of transfers, and assess the impact of taxonomic sampling on their inferences. We present what we believe is compelling evidence that gene transfer plays a significant role in the evolution of fungi.}
+      \field{day}{26}
+      \field{issn}{0962-8436, 1471-2970}
+      \field{journaltitle}{Phil. Trans. R. Soc. B}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{1678}
+      \field{title}{Genome-Scale Phylogenetic Analysis Finds Extensive Gene Transfer among Fungi}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{370}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{20140335}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rstb.2014.0335
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/UFTBSW6G/Szöllősi et al. - 2015 - Genome-scale phylogenetic analysis finds extensive.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0335
+      \endverb
+      \verb{url}
+      \verb https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0335
+      \endverb
+    \endentry
+    \entry{gabaldon2013a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0617dcf21491c6073b02c539e9c8c490}{%
+           family={Gabaldón},
+           familyi={G\bibinitperiod},
+           given={Toni},
+           giveni={T\bibinitperiod}}}%
+        {{hash=bca4c562f895947d90e1e03fe873e750}{%
+           family={Koonin},
+           familyi={K\bibinitperiod},
+           given={Eugene\bibnamedelima V.},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{824125e45a361d1d25492750c90af042}
+      \strng{fullhash}{824125e45a361d1d25492750c90af042}
+      \strng{bibnamehash}{824125e45a361d1d25492750c90af042}
+      \strng{authorbibnamehash}{824125e45a361d1d25492750c90af042}
+      \strng{authornamehash}{824125e45a361d1d25492750c90af042}
+      \strng{authorfullhash}{824125e45a361d1d25492750c90af042}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Orthologues and paralogues are types of homologous genes that are related by speciation or duplication, respectively. Orthologous genes are generally assumed to retain equivalent functions in different organisms and to share other key properties. Several recent comparative genomic studies have focused on testing these expectations. Here we discuss the complexity of the evolution of gene–phenotype relationships and assess the validity of the key implications of orthology and paralogy relationships as general statistical trends and guiding principles.}
+      \field{issn}{1471-0056, 1471-0064}
+      \field{journaltitle}{Nat Rev Genet}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Functional and Evolutionary Implications of Gene Orthology}
+      \field{urlday}{30}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{14}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{360\bibrangedash 366}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nrg3456
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/YQMNBAK9/Gabaldón and Koonin - 2013 - Functional and evolutionary implications of gene o.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nrg3456
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nrg3456
+      \endverb
+    \endentry
+    \entry{mcdonald2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a610abe50f03e62194525dcc6acb71bb}{%
+           family={McDonald},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=6d177a24f00093e85d91b71fcd0e0ea7}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b6bbbad5e561f7e225495ee6ca055774}{%
+           family={Tipton},
+           familyi={T\bibinitperiod},
+           given={K.\bibnamedelimi F.},
+           giveni={K\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e4bfc5d4f43435862c7517dbfe8e168}
+      \strng{fullhash}{defab1932acb30efeb4b6c3f082e4988}
+      \strng{bibnamehash}{defab1932acb30efeb4b6c3f082e4988}
+      \strng{authorbibnamehash}{defab1932acb30efeb4b6c3f082e4988}
+      \strng{authornamehash}{9e4bfc5d4f43435862c7517dbfe8e168}
+      \strng{authorfullhash}{defab1932acb30efeb4b6c3f082e4988}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{ExplorEnz is the MySQL database that is used for the curation and dissemination of the International Union of Biochemistry and Molecular Biology (IUBMB) Enzyme Nomenclature. A simple webbased query interface is provided, along with an advanced search engine for more complex Boolean queries. The WWW front-end is accessible at http://www.enzyme-database.org, from where downloads of the database as SQL and XML are also available. An associated form-based curatorial application has been developed to facilitate the curation of enzyme data as well as the internal and public review processes that occur before an enzyme entry is made official. Suggestions for new enzyme entries, or modifications to existing ones, can be made using the forms provided at http:// www.enzyme-database.org/forms.php.}
+      \field{day}{1}
+      \field{issn}{0305-1048, 1362-4962}
+      \field{issue}{Database}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{{{ExplorEnz}}}
+      \field{title}{{{ExplorEnz}}: The Primary Source of the {{IUBMB}} Enzyme List}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{37}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{D593\bibrangedash D597}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkn582
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/9995NUSY/McDonald et al. - 2009 - ExplorEnz the primary source of the IUBMB enzyme .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkn582
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkn582
+      \endverb
+    \endentry
+    \entry{henikoff1992}{article}{}
+      \name{author}{2}{}{%
+        {{hash=518b2c09425404b72feff2f65fed3a0f}{%
+           family={Henikoff},
+           familyi={H\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f4769233222efb964b35bc7ff733921b}{%
+           family={Henikoff},
+           familyi={H\bibinitperiod},
+           given={J\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f10536ef0429ca14902f3376673fb34}
+      \strng{fullhash}{2f10536ef0429ca14902f3376673fb34}
+      \strng{bibnamehash}{2f10536ef0429ca14902f3376673fb34}
+      \strng{authorbibnamehash}{2f10536ef0429ca14902f3376673fb34}
+      \strng{authornamehash}{2f10536ef0429ca14902f3376673fb34}
+      \strng{authorfullhash}{2f10536ef0429ca14902f3376673fb34}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Methods for alignment of protein sequences typically measure similait by using a substitution matrix with scores for all possible exchanges of one amino acid with another. The most widely used matrices are based on the Dayhoff model of evolutionary rates. Using a different approach, we have derived substitution matrices from about 2000 blocks of aligned sequence segments characterizing more than 500 groups of related proteins. This led to marked improvements in alignments and in searches using queries from each of the groups.}
+      \field{day}{15}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proc. Natl. Acad. Sci. U.S.A.}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{Amino Acid Substitution Matrices from Protein Blocks.}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{89}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{10915\bibrangedash 10919}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1073/pnas.89.22.10915
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/7TMV9R3Y/Henikoff and Henikoff - 1992 - Amino acid substitution matrices from protein bloc.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pnas.org/doi/full/10.1073/pnas.89.22.10915
+      \endverb
+      \verb{url}
+      \verb https://pnas.org/doi/full/10.1073/pnas.89.22.10915
+      \endverb
+    \endentry
+    \entry{mount2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=54341e719183e4c1bc26cf9e6099b701}{%
+           family={Mount},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{54341e719183e4c1bc26cf9e6099b701}
+      \strng{fullhash}{54341e719183e4c1bc26cf9e6099b701}
+      \strng{bibnamehash}{54341e719183e4c1bc26cf9e6099b701}
+      \strng{authorbibnamehash}{54341e719183e4c1bc26cf9e6099b701}
+      \strng{authornamehash}{54341e719183e4c1bc26cf9e6099b701}
+      \strng{authorfullhash}{54341e719183e4c1bc26cf9e6099b701}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{INTRODUCTION A hidden Markov model (HMM) is a probabilistic model of a multiple sequence alignment (msa) of proteins. In the model, each column of symbols in the alignment is represented by a frequency distribution of the symbols (called a “state”), and insertions and deletions are represented by other states. One moves through the model along a particular path from state to state in a Markov chain (i.e., random choice of next move), trying to match a given sequence. The next matching symbol is chosen from each state, recording its probability (frequency) and also the probability of going to that state from a previous one (the transition probability). State and transition probabilities are multiplied to obtain a probability of the given sequence. The hidden nature of the HMM is due to the lack of information about the value of a specific state, which is instead represented by a probability distribution over all possible values. This article discusses the advantages and disadvantages of HMMs in msa and presents algorithms for calculating an HMM and the conditions for producing the best HMM.}
+      \field{issn}{1940-3402, 1559-6095, 1559-6095}
+      \field{journaltitle}{Cold Spring Harb Protoc}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{Using {{Hidden Markov Models}} to {{Align Multiple Sequences}}}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{2009}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{pdb.top41}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/pdb.top41
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/AEHYQSV4/Mount - 2009 - Using Hidden Markov Models to Align Multiple Seque.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.cshprotocols.org/lookup/doi/10.1101/pdb.top41
+      \endverb
+      \verb{url}
+      \verb http://www.cshprotocols.org/lookup/doi/10.1101/pdb.top41
+      \endverb
+    \endentry
+    \entry{gribskov1987}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0a99b64d529926d7c775d0d667220fbf}{%
+           family={Gribskov},
+           familyi={G\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=25d2269ca771fd98b012e2f60749bbaa}{%
+           family={McLachlan},
+           familyi={M\bibinitperiod},
+           given={A\bibnamedelima D},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=5011b825249e7610f91f155dda93271e}{%
+           family={Eisenberg},
+           familyi={E\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a61a8a1b11b7447e024bbfab27fd23c1}
+      \strng{fullhash}{12bbb67f73abb39705ab7f80a5a2f347}
+      \strng{bibnamehash}{12bbb67f73abb39705ab7f80a5a2f347}
+      \strng{authorbibnamehash}{12bbb67f73abb39705ab7f80a5a2f347}
+      \strng{authornamehash}{a61a8a1b11b7447e024bbfab27fd23c1}
+      \strng{authorfullhash}{12bbb67f73abb39705ab7f80a5a2f347}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Profile analysis is a method for detecting distantly related proteins by sequence comparison. The basis for comparison is not only the customary Dayhoff mutationaldistance matrix but also the results of structural studies and information implicit in the alignments of the sequences of families of similar proteins. This information is expressed in a position-specific scoring table (profile), which is created from a group of sequences previously aligned by structural or sequence similarity. The similarity of any other sequence (target) to the group of aligned sequences (probe) can be tested by comparing the target to the profile using dynamic programming algorithms. The profile method differs in two major respects from methods of sequence comparison in common use: (i) Any number of known sequences can be used to construct the profile, allowing more information to be used in the testing of the target than is possible with pairwise alignment methods. (it) The profile includes the penalties for insertion or deletion at each position, which allow one to include the probe secondary structure in the testing scheme. Tests with globin and immunoglobulin sequences show that profile analysis can distinguish all members of these families from all other sequences in a database containing 3800 protein sequences.}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proc. Natl. Acad. Sci. U.S.A.}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{13}
+      \field{shorttitle}{Profile Analysis}
+      \field{title}{Profile Analysis: Detection of Distantly Related Proteins.}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{84}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4355\bibrangedash 4358}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1073/pnas.84.13.4355
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/4XFTVUCY/Gribskov et al. - 1987 - Profile analysis detection of distantly related p.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pnas.org/doi/full/10.1073/pnas.84.13.4355
+      \endverb
+      \verb{url}
+      \verb https://pnas.org/doi/full/10.1073/pnas.84.13.4355
+      \endverb
+    \endentry
+    \entry{kanehisa2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ec3c5c5b7d5449aed63041d60bdd719e}{%
+           family={Kanehisa},
+           familyi={K\bibinitperiod},
+           given={Minoru},
+           giveni={M\bibinitperiod}}}%
+        {{hash=48a0595aea8e691ed3e8261a79e07c62}{%
+           family={Goto},
+           familyi={G\bibinitperiod},
+           given={Susumu},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f68b31ccae19db8b9e875ee051389aca}
+      \strng{fullhash}{f68b31ccae19db8b9e875ee051389aca}
+      \strng{bibnamehash}{f68b31ccae19db8b9e875ee051389aca}
+      \strng{authorbibnamehash}{f68b31ccae19db8b9e875ee051389aca}
+      \strng{authornamehash}{f68b31ccae19db8b9e875ee051389aca}
+      \strng{authorfullhash}{f68b31ccae19db8b9e875ee051389aca}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{KEGG (Kyoto Encyclopedia of Genes and Genomes) is a knowledge base for systematic analysis of gene functions, linking genomic information with higher order functional information. The genomic information is stored in the GENES database, which is a collection of gene catalogs for all the completely sequenced genomes and some partial genomes with up-to-date annotation of gene functions. The higher order functional information is stored in the PATHWAY database, which contains graphical representations of cellular processes, such as metabolism, membrane transport, signal transduction and cell cycle. The PATHWAY database is supplemented by a set of ortholog group tables for the information about conserved subpathways (pathway motifs), which are often encoded by positionally coupled genes on the chromosome and which are especially useful in predicting gene functions. A third database in KEGG is LIGAND for the information about chemical compounds, enzyme molecules and enzymatic reactions. KEGG provides Java graphics tools for browsing genome maps, comparing two genome maps and manipulating expression maps, as well as computational tools for sequence comparison, graph comparison and path computation. The KEGG databases are daily updated and made freely available (http://www.genome.ad.jp/kegg/ ).}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{{{KEGG}}: {{Kyoto Encyclopedia}} of {{Genes}} and {{Genomes}}}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{pages}{27\bibrangedash 30}
+      \range{pages}{4}
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/GUHSB2J5/Kanehisa and Goto - KEGG Kyoto Encyclopedia of Genes and Genomes.pdf
+      \endverb
+    \endentry
+    \entry{wrzodek2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=1335e623517265332e62d73b86bdb027}{%
+           family={Wrzodek},
+           familyi={W\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a23fd221aa096a595a0df06d8a40c864}{%
+           family={Büchel},
+           familyi={B\bibinitperiod},
+           given={Finja},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f01e7b82a8c48d0c4b8f47d4f2b3fb71}{%
+           family={Ruff},
+           familyi={R\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=226ca405f7e7e806dead85aa92ec3c47}{%
+           family={Dräger},
+           familyi={D\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=650741453181162d551d5db838d0856f}{%
+           family={Zell},
+           familyi={Z\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee12acb837d45be4b750de0eac9bf7fa}
+      \strng{fullhash}{7d6d5e854273dbc9cc4792d4237f72f9}
+      \strng{bibnamehash}{7d6d5e854273dbc9cc4792d4237f72f9}
+      \strng{authorbibnamehash}{7d6d5e854273dbc9cc4792d4237f72f9}
+      \strng{authornamehash}{ee12acb837d45be4b750de0eac9bf7fa}
+      \strng{authorfullhash}{7d6d5e854273dbc9cc4792d4237f72f9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: The KEGG PATHWAY database provides a plethora of pathways for a diversity of organisms. All pathway components are directly linked to other KEGG databases, such as KEGG COMPOUND or KEGG REACTION. Therefore, the pathways can be extended with an enormous amount of information and provide a foundation for initial structural modeling approaches. As a drawback, KGML-formatted KEGG pathways are primarily designed for visualization purposes and often omit important details for the sake of a clear arrangement of its entries. Thus, a direct conversion into systems biology models would produce incomplete and erroneous models. Results: Here, we present a precise method for processing and converting KEGG pathways into initial metabolic and signaling models encoded in the standardized community pathway formats SBML (Levels 2 and 3) and BioPAX (Levels 2 and 3). This method involves correcting invalid or incomplete KGML content, creating complete and valid stoichiometric reactions, translating relations to signaling models and augmenting the pathway content with various information, such as cross-references to Entrez Gene, OMIM, UniProt ChEBI, and many more. Finally, we compare several existing conversion tools for KEGG pathways and show that the conversion from KEGG to BioPAX does not involve a loss of information, whilst lossless translations to SBML can only be performed using SBML Level 3, including its recently proposed qualitative models and groups extension packages. Conclusions: Building correct BioPAX and SBML signaling models from the KEGG database is a unique characteristic of the proposed method. Further, there is no other approach that is able to appropriately construct metabolic models from KEGG pathways, including correct reactions with stoichiometry. The resulting initial models, which contain valid and comprehensive SBML or BioPAX code and a multitude of cross-references, lay the foundation to facilitate further modeling steps.}
+      \field{issn}{1752-0509}
+      \field{journaltitle}{BMC Syst Biol}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Precise Generation of Systems Biology Models from {{KEGG}} Pathways}
+      \field{urlday}{1}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{15}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1752-0509-7-15
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/KA3KLGHY/Wrzodek et al. - 2013 - Precise generation of systems biology models from .pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-7-15
+      \endverb
+      \verb{url}
+      \verb http://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-7-15
+      \endverb
+    \endentry
+    \entry{darzi2018}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c2005c0aa621b171ec551a026fbbf62b}{%
+           family={Darzi},
+           familyi={D\bibinitperiod},
+           given={Youssef},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=90a16251283487ab24f75284582c22c5}{%
+           family={Letunic},
+           familyi={L\bibinitperiod},
+           given={Ivica},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e661978528e2df38a8c66036d9e7c3a2}{%
+           family={Bork},
+           familyi={B\bibinitperiod},
+           given={Peer},
+           giveni={P\bibinitperiod}}}%
+        {{hash=626a3a99bba74db772780f7bb5d2dd8d}{%
+           family={Yamada},
+           familyi={Y\bibinitperiod},
+           given={Takuji},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2a8a9d21df7092a02c55ef1c3fb82ab}
+      \strng{fullhash}{e2628a16630c3c46d0de27f8ffa20497}
+      \strng{bibnamehash}{e2628a16630c3c46d0de27f8ffa20497}
+      \strng{authorbibnamehash}{e2628a16630c3c46d0de27f8ffa20497}
+      \strng{authornamehash}{f2a8a9d21df7092a02c55ef1c3fb82ab}
+      \strng{authorfullhash}{e2628a16630c3c46d0de27f8ffa20497}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{2}
+      \field{issn}{0305-1048, 1362-4962}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{W1}
+      \field{shorttitle}{{{iPath3}}.0}
+      \field{title}{{{iPath3}}.0: Interactive Pathways Explorer V3}
+      \field{urlday}{2}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{46}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{W510\bibrangedash W513}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gky299
+      \endverb
+      \verb{file}
+      \verb /Users/dimitrademertzi/Zotero/storage/WV7XTV3Y/Darzi et al. - 2018 - iPath3.0 interactive pathways explorer v3.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/nar/article/46/W1/W510/4990021
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/nar/article/46/W1/W510/4990021
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

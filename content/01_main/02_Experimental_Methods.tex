@@ -1,0 +1,116 @@
+\section{Methods}
+
+
+\subsection*{Data Retrieval \& Datasets Establishment}
+\addcontentsline{toc}{subsubsection}{Data Retrieval \& Datasets Establishment}
+We obtained the amino acid FASTA files containing all protein-encoding gene sequences predicted with Prodigal \cite{hyatt2010a} for all representative archaeal and bacterial species, from the Genome Taxonomy Database (GTDB, release R08-RS214, accessed in March 2024) \cite{parks2018, parks2020, parks2022, rinke2021} 
+
+As of March 2024, the database contained 402,709 genomes organized into 85,205 species clusters, with one representative genome of each named species, according to Parks et al. (2020) \cite{parks2020}. We kept only the genomes which met the high quality completeness ($\geq$  90\%) and low contamination ($\leq$ 5\%) criteria, as defined by MIMAG \cite{thegenomestandardsconsortium2017}. Out of the 85,205 (4,416 archaeal and 80,789 bacterial) representative (REP) genomes, 52,614 (1,785 archaeal and 50,829 bacterial) genomes met these criteria -- henceforth called high quality (HQ) genomes. 
+ 
+% maybe better to include this sentence in the discussion To reduce the computational burden of the analysis and render it tractable for the finite time-frame of this master internship, various (sub)
+Datasets were generated for the phylum, class, order, family, and genus taxonomic ranks for the domains of archaea and bacteria separately, both for the REP and HQ genomes. Per rank, a single representative genome was randomly selected with the pandas function .sample() of the random module. Besides the domain-specific datasets, merged ones were also created for the phylum, class, and order ranks by simple combination of the previously generated folder directories, to perform a phylogenetic analysis for the entire prokaryotic tree of life. Table \ref*{gtdb_stats_no} shows the distribution of genomes across taxonomic levels for both archaea and bacteria domains, which reflects dataset sizes.
+
+% completeness and contamination have been shown to affect the phylogeny (will have to go back to text and read more about this) \cite{martinez-gutierrez2021}. this will probably have to be moved in the discussion section.
+
+\normalsize
+\begin{table}[!h]
+    \centering
+    \begin{threeparttable}
+    \caption{Distribution of representative (REP) and high quality (HQ) genomes across taxonomic levels for both archaea and bacteria domains. Dataset size corresponds to the number of genomes in that taxonomic level.}
+    \label{gtdb_stats_no}
+    \begin{tabular}{lllllllll}
+    %\toprule
+    \addlinespace[1.5ex]
+    &  &  & \multicolumn{6}{c}{\textbf{Taxonomic Level}} \\
+    \cmidrule{4-9}
+    &  &  & Phylum & Class & Order & Family & Genus & Species \\
+    \midrule
+    \addlinespace[1.5ex]
+    \multicolumn{2}{l}{\textbf{Archaea}} \\
+    & REP genomes &  & 21 & 63 & 149 & 509 & 1586 & 4416 \\
+    & HQ genomes  &  & \textbf{16} & \textbf{51} & \textbf{94} & \textbf{206} & \textbf{582} & \textbf{1785} \\
+    & HQ genome proportion\tnote{*} &  & 76.2\% & 80.9\% & 63.1\% & 40.5\% & 36.7\% & 40.4\% \\
+    \addlinespace[1.5ex]
+    \multicolumn{2}{l}{\textbf{Bacteria}} \\
+    & Rep genomes &  & 181 & 490 & 1653 & 4305 & 19153 & 80789 \\
+    & HQ genomes &  & \textbf{150} & \textbf{374} & \textbf{1139} & \textbf{2787} & \textbf{12086} & \textbf{50089} \\
+    & HQ genome proportion &  & 82.9\% & 76.3\% & 68.9\% & 64.8\% & 63.1\% & 62.0\% \\
+    \bottomrule
+    \end{tabular}
+
+    \begin{tablenotes}
+        \footnotesize
+        \item[*] Percentage of high quality genomes within representative genomes.
+    \end{tablenotes}
+    \end{threeparttable}
+
+\end{table}
+
+
+
+\subsection*{Ancestral Gene Content Reconstruction}
+\addcontentsline{toc}{subsubsection}{Ancestral Gene Content Reconstruction}
+
+A phylogenetic analysis of datasets presented in Table \ref{datasets} was performed with OrthoFinder v2.5.5 \cite{emms2019,emms2015}, which employs a number of specialized phylogenetic tools, such as DIAMOND v2.1.9 \cite{buchfink2021}, MCL v22.282 \cite{vandongen2008}, ETE v3.1.3 \cite{huerta-cepas2016}, running on default parameters. After the initial construction of orthogroups (gene families) for each respective dataset, gene tree reconciliation and ancestral gene content were determined with the GTDB species trees per domain, instead of the rooted species tree computed by OrthoFinder. The superfluous GTDB branches were pruned with Biopython's Phylo module to match the dataset topology. The smaller-sized datasets were run locally, while the rest were run by the Kyoto Supercomputer. The genome accession numbers constituting each dataset can be found in the supplementary material (Table x).
+
+%probably to write in results that the GTDB tree was used instead of the one computed by OrthoFinder for consistency across sets, because the tree topology differed depending on the genome set used. Moreover, it would be good to include a table with the overall comparative genomics statistics for each dataset.
+
+\normalsize
+\begin{table}
+    \centering
+    \caption{OrthoFinder phylogenetic analysis performed for \\the following datasets.}
+    \label{datasets}
+    \begin{tabular}{lcccc}
+
+        \textbf{Taxonomy Level} & ~ & \multicolumn{3}{c}{\textbf{Domain}} \\
+        \addlinespace[1.5ex]
+
+        ~ & ~ & Archaea & Bacteria & All \\ 
+        \cmidrule{3-5}
+
+        Phylum & ~ & REP | HQ &  HQ & HQ \\ 
+        Class & ~ &  HQ &  HQ &  HQ \\ 
+        Order & ~ & HQ & ~ & ~ \\ 
+        Family & ~ & HQ & ~ & ~ \\ 
+        Genus & ~ & HQ & ~ & ~ \\ 
+        Species & ~ & HQ & ~ & ~ \\
+
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+
+\subsection*{Gene Annotation using EggNOG-mapper}
+\addcontentsline{toc}{subsubsection}{Gene Annotation using EggNOG-mapper}
+
+
+A number of ancestral genomes were selected for further analysis based on the species tree topology of the smallest dataset for the archaea domain, as shown in Table ref nodes per dataset. For bacteria, metabolic networks were reconstructed only for the Last Bacterial Common Ancestor (LBCA).
+
+The initial functional annotation and KEGG orthology (KO) number assignment were performed by eggNOG-mapper v2.1.12 \cite{cantalapiedra2021} with default settings, using the eggNOG 5.0 database \cite{huerta-cepas2019} on the medoid sequence; the sequence having the shortest genetic distance to all other sequences in the group. This was calculated under the BLOSUM62 substitution matrix with the .align function from Biopython's Align module, for maximum 100 sequences per orthogroup. For large orthogroups, a hundred sequences were selected at random with the .sample function of the random module. 
+
+The annotation was performed twice per ancestral genome, against the domain-specific and prokaryote eggNOG databases. For each shared hit, priority was given to the hit with the higher bit-score. For shared hits with identical bit-scores, the hit with the lower e-value was selected, and in case both bit-scores and e-values were identical, the hit from the prokaryote eggNOG database was selected. All hits unique to one of the two database runs were kept for downstream analysis. 
+
+
+\subsection*{Gene Annotation using HMM profiles}
+\addcontentsline{toc}{subsubsection}{Gene Annotation using HMM profiles}
+
+
+The LACA inferred genome (N0) for the phylum-level archaea dataset was selected to be annotated with Hidden Markov Model (HMM) profiles. Each orthogroup initially underwent multiple sequence alignment (MSA) with MAFFT v7.525 \cite{katoh2013} using the L-INS-i iterative refinement method with local alignment. The resulting MSA was used to build an HMM profile with HMMER v3.4 hmmbuild program. It was then searched against the UniprotKB database \cite{theuniprotconsortium2023} for archaeal proteins (accessed in June 2024) with the hmmsearch program.
+
+
+\subsection*{Metabolic Network Reconstruction}
+\addcontentsline{toc}{subsubsection}{Metabolic Network Reconstruction}
+
+
+To reconstruct the metabolic network for each chosen ancestral genome, we utilized a database compiled by Goldford et al. (2024) \cite{goldford2024}, containing elementally consistent biochemical reactions from the Kyoto Encyclopedia of Genes and Genomes (KEGG), with added detailed organic and inorganic cofactor dependencies gathered from various other databases. The KEGG reaction IDs obtained from eggNOG-mapper were then mapped to the reactions in the database. Reaction reversibility was determined with the eQuilibrator python API \cite{beber2022} using the following parameters: pH = 7.0, pMg (magnesium ion concentration) = 3.0, ionic strength of 0.25 M, temperature T = 298.15 K, and metabolite concentrations between 0.01 and 10 mM. All forward or reverse reactions with minimum reaction free energy above zero were removed from the network. A reaction was kept reversible if no free energy estimate was available.
+
+\subsection*{Seed Sets Generation}
+\addcontentsline{toc}{subsubsection}{Seed Sets Generation}
+
+All seed sets are available in the supplementary material (Table x). We utilized the seed set created by Goldford et al. (2024) \cite{goldford2024}, consisting of various metal species and elemental sources of phosphorus, nitrogen, sulfur, oxygen, hydrogen and carbon found in KEGG, as a basis for all our generated seed sets. With the prebiotic soup concept in mind, we expanded the seed set by adding compounds found in the Murchison meteorite and the Miller-Urey spark-discharge-like experiments, for which KEGG IDs were available, according to Vincent et al. (2021) \cite{vincent2021}. For the rest of our seedsets, we utilized the Bertz complexity metric computed for 3,588 compounds by Goldford et al. (2024) for all KEGG module compounds, and filtered the list to create seed sets of increasing molecular complexity. The KEGG module compound data were retrieved using the TogoWS REST service (http://togows.dbcls.jp).
+
+
+\subsection*{Network expansion algorithm} 
+\addcontentsline{toc}{subsubsection}{Network expansion algorithm}
+
+The network expansion algorithm was implemented using the BioXP python package with some modifications, written initially by Harrison B. Smith and colleagues (https://github.com/hbsmith/BioXP). *move this sentence to introduction: Briefly, seed compounds are allowed to react given the reactions in the network, which then produce product compounds. The product compounds are added to the seed set, and the process is repeated until convergence \cite{handorf2005}. 
