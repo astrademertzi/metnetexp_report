@@ -1,0 +1,161 @@
+compound_id,bertz_complexity,compound_name
+C00175,0.0,Cobalt ion; Cobalt(2+); Co2+; Co(II)
+C06547,0.0,Ethylene
+C00014,0.0,Ammonia
+C05361,0.0,Hydrazine
+C00038,0.0,Zinc cation; Zn2+; Zn(II); Zinc ion
+C14818,0.0,Fe2+; Fe(II); Ferrous ion; Iron(2+)
+C00001,0.0,H2O
+C00070,0.0,Copper
+C00027,0.0,Hydrogen peroxide
+C00282,0.0,Hydrogen; H2
+C01528,0.0,Hydrogen selenide; Selenide
+C14819,0.0,Fe3+; Fe(III); Ferric ion; Iron(3+)
+C00305,0.0,Magnesium cation; Mg2+; Magnesium(2+); Magnesium ion
+C00007,0.0,Oxygen
+C00283,0.0,Hydrogen sulfide
+C00150,0.0,Molybdenum
+C00238,0.0,Potassium cation; K+; Potassium(1+); Potassium ion
+C19609,0.0,Nickel(2+); Ni2+; Ni(II)
+C00080,0.0,H+
+C01438,0.0,Methane
+C00132,2.0,Methanol
+C00067,2.0,Formaldehyde
+C00192,2.0,Hydroxylamine
+C00069,2.0,Alcohol
+C00533,2.0,Nitric oxide
+C00218,2.0,Methylamine
+C00543,2.754887502,Dimethylamine
+C00697,4.754887502,Nitrogen
+C00189,8.0,Ethanolamine
+C00565,8.0,Trimethylamine
+C00088,10.26466251,Nitrite
+C00084,10.26466251,Acetaldehyde
+C00058,10.26466251,Formate
+C00071,12.26466251,Aldehyde; RCHO
+C00479,17.2451125,Propanal
+C00134,17.509775,Putrescine
+C00011,23.77443751,CO2
+C00116,25.21928095,Glycerol
+C01672,25.26112493,Cadaverine
+C00244,26.26466251,Nitrate
+C00288,26.26466251,HCO3-; Hydrogencarbonate; Bicarbonate; Hydrogen carbonate; Acid carbonate
+C00207,26.26466251,Acetone
+C00094,26.26466251,Sulfite
+C00033,27.01955001,Acetate
+C05665,28.07403392,3-Aminopropanal
+C00086,29.01955001,Urea
+C00160,40.15772188,Glycolate
+C00037,42.91260938,Glycine
+C07044,42.91260938,Hydroxyurea
+C02426,43.30296891,L-Glyceraldehyde
+C00577,43.30296891,D-Glyceraldehyde
+C00184,44.0,Glycerone
+C03939,44.91260938,Acetyl-[acyl-carrier protein]
+C12455,45.34481289,5-Aminopentanal
+C00114,46.53206898,Choline
+C00315,48.81290899,Spermidine
+C00009,49.78353987,Orthophosphate
+C01013,50.0,3-Hydroxypropanoate
+C00099,52.7548875,beta-Alanine
+C00213,52.7548875,Sarcosine
+C00048,55.913403,Glyoxylate
+C15809,58.6682905,Iminoglycine
+C00041,59.81353753,L-Alanine
+C00989,59.95524698,4-Hydroxybutanoic acid
+C00334,62.71013448,4-Aminobutanoate
+C00576,62.97063087,Betaine aldehyde
+C05745,64.71013448,Butyryl-[acp]
+C00222,66.4385619,3-Oxopropanoate
+C01089,67.33515885,(R)-3-Hydroxybutanoate
+C00258,69.33515885,D-Glycerate
+C01026,70.09004635,"N,N-Dimethylglycine"
+C00209,71.54887502,Oxalate; Oxalic acid; Ethanedioic acid
+C00022,72.03910002,Pyruvate
+C01205,72.09004635,(R)-3-Amino-2-methylpropanoate
+C00065,72.58027135,L-Serine
+C00431,72.82892142,5-Aminopentanoate
+C00990,72.82892142,5-Aminopentanamide
+C03401,73.33515885,"L-2,3-Diaminopropanoate"
+C00161,74.79398752,2-Oxo acid; 2-Oxocarboxylate; 2-Oxocarboxylic acid; 2-Oxo carboxylate
+C00097,75.33515885,L-Cysteine
+C00379,76.10749561,Xylitol
+C20253,76.86238311,Aminoacrylate
+C00232,77.00409256,Succinate semialdehyde
+C00179,81.02718015,Agmatine
+C00383,83.10802962,Malonate; Malonic acid; Propanedioic acid
+C00164,83.10802962,Acetoacetate
+C02714,83.12704562,N-Acetylputrescine
+C00263,83.35260811,L-Homoserine
+C06451,83.69058447,2-Hydroxyethylphosphonate
+C04618,84.10749561,(3R)-3-Hydroxybutanoyl-[acyl-carrier protein]
+C03283,84.10749561,"L-2,4-Diaminobutanoate"
+C05749,85.12704562,Hexanoyl-[acp]
+C00155,86.10749561,L-Homocysteine
+C00750,86.12278798,Spermine
+C00059,86.81635834,Sulfate
+C20679,86.81635834,Tungstate; Tungstic acid
+C06232,86.81635834,Molybdate
+C03273,87.67457204,5-Oxopentanoate
+C00320,88.06147084,Thiosulfate
+C20249,88.18080947,(Z)-3-Peroxyaminoacrylate
+C04246,89.69058447,But-2-enoyl-[acyl-carrier protein]
+C00183,90.42945954,L-Valine
+C00188,91.28421252,L-Threonine
+C00042,92.60593782,Succinate
+C08057,92.93569697,Cycloserine
+C00719,93.09201719,Betaine
+C01885,94.56842503,1-Acylglycerol
+C00515,94.95878456,D-Ornithine
+C00077,94.95878456,L-Ornithine
+C00168,95.10802962,Hydroxypyruvate
+C00109,95.10802962,2-Oxobutanoate
+C00148,96.6017922,L-Proline
+C00073,96.95878456,L-Methionine
+C00581,97.09616281,Guanidinoacetate
+C00346,98.21143267,Ethanolamine phosphate
+C05936,101.2309827,N4-Acetylaminobutanal
+C00123,101.2309827,L-Leucine
+C00441,101.4565452,L-Aspartate 4-semialdehyde
+C03167,102.2574223,Phosphonoacetaldehyde
+C00407,103.2309827,L-Isoleucine
+C09822,103.4837784,Cyclohexane-1-carboxylate
+Z00062,,V
+C00311,,Isocitrate
+C00028,,Acceptor; Hydrogen-acceptor; A; Oxidized donor
+C00122,,Fumarate
+Z00020,,Generic FeS Cluster
+Z00053,,W
+C00023,,Iron
+C00205,,hn; Light; Photon; hnu
+Z00060,,Monovalent Metal
+C00034,,Manganese
+Z00064,,Mo
+Z00029,,Mg
+Z00070,,Cu
+C01732,,Mesaconate
+Z00055,,Ca
+C00050,,Metal
+Z00063,,Generic FeS
+Z00033,,Na
+Z00002,,4Fe4S
+C22155,,[Fe-S] cluster scaffold protein
+C17023,,Sulfur donor; S-donor
+Z00001,,2Fe2S
+C00417,,cis-Aconitate
+C00012,,Peptide
+C00036,,Oxaloacetate
+C00030,,Reduced acceptor; AH2; Hydrogen-donor; Donor
+C19806,,"Propane-1,2,3-tricarboxylate; Tricarballylate"
+C01335,,ROH
+Z00054,,Zn
+Z00034,,Ni
+C01127,,4-Hydroxy-2-oxoglutarate; 4-Hydroxy-2-oxoglutaric acid
+C01330,,Sodium cation; Na+; Sodium(1+); Sodium ion
+Z00015,,Fe
+Z00069,,Diavalent Metal
+Z00006,,Co
+C00026,,2-Oxoglutarate
+C00149,,(S)-Malate
+Z00030,,Mn
+Z00067,,3Fe4S

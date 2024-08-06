@@ -73,9 +73,9 @@ We also tried performing functional annotation of entire OGs, instead of single 
 \addcontentsline{toc}{subsubsection}{Metabolic Network Reconstruction}
 
 
-One of the first things we noticed when mapping our inferred reaction IDs to the KEGG database was the absence of multiple IDs per dataset and often incomplete or missing fields, leading to inconsistent information between reactions; for example, some reactions include the KEGG module or pathway, while others do not. Even though the KEGG databases provide a valuable resource for the field of bioinformatics and metabolism modeling \cite{kanehisa2000}, it was primarily designed for visualization purposes, and its reactions are often unbalanced \cite{wrzodek2013} and can be even elementally inconsistent \cite{goldford2024}. For these reasons, we utilized the database compiled by Goldford et al. (2024) \cite{goldford2024}, which extends the KEGG reactions database by excluding elementally inconsistent reactions and adding detailed organic and inorganic cofactor dependencies from various other databases. 
+One of the first things we noticed when mapping our inferred reaction IDs to the KEGG database was the absence of multiple IDs per dataset and often incomplete or missing fields, leading to inconsistent information between reactions; for example, some reactions include the KEGG module or pathway, while others do not. Even though the KEGG databases provide a valuable resource for the field of bioinformatics and metabolism modeling \cite{kanehisa2000}, KEGG was primarily designed for visualization purposes, with its reactions often unbalanced \cite{wrzodek2013}, and even elementally inconsistent \cite{goldford2024}. For these reasons, we utilized the database compiled by Goldford et al. (2024) \cite{goldford2024}, which extends the KEGG reactions database by adding detailed organic and inorganic cofactor dependencies from various other databases, while excluding elementally inconsistent reactions. Reaction directionality was performed with eQuilibrator \cite{beber2022}, to ensure a more realistic network reconstruction.
 
-To inspect the connectivity of the reconstructed metabolisms of putative, ancient microorganisms, we visualized the networks using iPath \cite{darzi2018}, an interactive metabolic pathway explorer that is based on four KEGG global maps. The hypothetical metabolic potential of LACA for the family-level archaea dataset can be seen in Figure \ref{fam4arc_metnet}, while the rest of LACA-inferred metabolic networks can be found in Appendix Figs. \ref{phy4arc_metnet} - \ref{gen4arc_metnet}. Even at the phylum-level, the network seems relatively well-connected, with isolated reactions being dispersed across the entire map. The smallest of the reconstructed metabolic networks, after all, contains 1192 reactions. 
+To inspect the connectivity of the reconstructed metabolisms of putative, ancient microorganisms, we visualized the networks using iPath \cite{darzi2018}, an interactive metabolic pathway explorer that is based on four KEGG global maps. The hypothetical, genome-scale metabolic model of LACA for the family-level archaea dataset can be seen in Figure \ref{fam4arc_metnet}, while the rest of LACA-inferred metabolic networks can be found in Appendix Figs. \ref{phy4arc_metnet} - \ref{gen4arc_metnet}. Even at the phylum-level, the network seems relatively well-connected, with isolated reactions being dispersed across the entire map; the smallest of the reconstructed metabolic networks, after all, contains 1192 reactions for the Goldford database, which includes multiple versions of the same reaction. Only one version of each reaction, the KEGG version, can be visualized using iPath. 
 
 \begin{figure}[H]
     \centering
@@ -86,9 +86,9 @@ To inspect the connectivity of the reconstructed metabolisms of putative, ancien
 
 %Another drawback of using KEGG Orthology (KOs), instead of COGs---which correspond to wider gene families---\cite{tatusov2003}, to construct hypothetical metabolism models of ancient microorganisms, is that gene families that were likely present in those organisms are divided into multiple KO families that appear in particular taxonomic groups and may only be inferred for younger ancestors \cite{moody2024}.
 
-Phylogenetic-based metabolic network reconstruction enables the mapping of genetic information to genome distance from the tree root. We aimed to explore the emergence and evolution of individual ECs across the tree of life, a topic that has not been previously investigated. For this, we acquired the distance of all nodes from the tree root and used it as a proxy for evolution. All enzyme categories are present in the reconstructed LACA metabolism (Figure \ref{ec_vs_rootdist_fam}B). The relative abundance of ligases and oxidoreductases is higher in the inferred ancient metabolisms, while that of transferases declines. Lyases and isomerases are universally more limited and do not become enriched over time. This divergence may indicate a different rate of innovation for various ECs or suggest that specific types of enzymes are more prone to either loss or gain.
+Phylogenetic-based metabolic network reconstruction enables the mapping of genetic information to genome distance from the tree root. We aimed to explore the emergence and evolution of individual ECs across the tree of life (ToL), a topic that has not been previously investigated. For this, we acquired the distance of all nodes from the tree root and used it as a proxy for evolution. All enzyme categories are present in the reconstructed LACA metabolism (Figure \ref{ec_vs_rootdist_fam}B). The relative abundance of ligases and oxidoreductases is higher in the inferred ancient metabolisms, while that of transferases declines. Lyases and isomerases are universally more limited and do not become enriched over time. This divergence may indicate a different rate of innovation for various ECs or suggest that specific types of enzymes are more prone to either loss or gain.
 
-No other significant differences or patterns are observable, so it may be beneficial to divide the tree into multiple clades and track EC evolution within specific groups of species rather than across the entire tree. This approach will be especially important if we increase the deep branch resolution by reconstructing the metabolic networks of all possible internal tree nodes. Even though the relative abundance of the six EC categories varies between inferred and extant microorganisms, their distribution across the tree follows a similar pattern, reflecting the species distribution across the tree (Fig. \ref{ec_vs_rootdist_fam}A). Small variations, such as the increase in transferases at a distance of around 1.5 from the tree root, may indicate an enrichment of this enzyme category in certain species, possibly due to specialization or an evolutionary advantage.
+No other significant differences or patterns are observable, so it may be beneficial to divide the tree into multiple clades and track EC evolution within specific groups of species rather than across the entire tree. This approach will be especially important if we increase the deep branch resolution by reconstructing the metabolic networks of all possible internal tree nodes. Even though the relative abundance of the six EC categories varies between inferred and extant microorganisms, their distribution across the tree follows a similar pattern, reflecting the species distribution across the tree (Fig. \ref{ec_vs_rootdist_fam}A). Small variations, such as the increase in transferases at a distance of around 1.5 from the tree root, may indicate an enrichment of this enzyme category in certain species, possibly due to specialization or an evolutionary advantage. The evolution of ECs across the ToL for the rest of the archaeal datasets can be found in Appendix Figs. \ref{barplot_phy4arc} - \ref{barplot_gen4arc}.
 
 \begin{figure}[H]
     \centering
@@ -100,29 +100,49 @@ No other significant differences or patterns are observable, so it may be benefi
 \subsection*{Metabolic Network Expansion}
 \addcontentsline{toc}{subsubsection}{Metabolic Network Expansion}
 
-** gray covers the reactions of the expanded network. They always will be less populated than the black ones. The blue dots (scope) include the red dots (seed set).
+One of the first objectives of this internship was to investigate the evolution of metabolism across the ToL, and the metabolic potential of the inferred ancient microorganisms, with Metabolic Network Expansion (MNE). MNE is a graph-based structural analysis of large-scale metabolic systems \cite{ebenhoh2004}, that has previously been used to explore the metabolic scope of extant microorganisms. While the method itself does not take into account the phylogenetic relationships between species, Handorf et al. \cite{handorf2005}, among others, have noted that it exhibits evolution-like features. The temporal order of reaction addition to the expanding network, however, solely depends on the nature of the seed compounds utilized to initiate the expansion, and can therefore be described as pre-determined.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.98\textwidth]{metabolism/fam_N0_exp.pdf}
-    \caption{Reconstruction of LACA's metabolic network from extant life, for the family-level archaea dataset. In black: enzymes and metabolic pathways that were inferred to be present in LACA. In gray: enzymes and metabolic pathways of the expanded network. Red dots: seed set compounds present in the reconstructed network. Blue dots: scope compounds after network expansion.}    
-    \label{fam4arc_metnetexp}
+    \includegraphics[width=0.98\textwidth]{metabolism/fam_N0_exp0106_comp.pdf}
+    \caption{Reconstruction of LACA's metabolic network from extant life, for the family-level archaea dataset. In black: enzymes and metabolic pathways that were inferred to be present in LACA, which are not part of the expansion. In gray: enzymes and metabolic pathways of the expanded network. Red dots: respective seed set compounds. Blue dots: scope compounds after network expansion. (A) shows the expansion of the network with the 10\% completeness seed set, while (B) shows the expansion with the 60\% completeness seed set.}    
+    \label{fam4arc_metnetexp_0106}
 \end{figure}
+
+For example, Figure \ref{fam4arc_metnetexp_0106} shows the expansion of the family-level LACA for two different seed sets: the one with the lowest 10\% complexity compounds based on the Bertz complexity index (A) and the one with the lowest 60\% complexity compounds. The 10\% seed set expansion is more limited, with fewer seed compounds (red dots) unevenly distributed throughout the metabolic map. Depending on the positions of the seeds, different parts of the metabolism will be accessed (gray lines), with a specified order of addition. A visual representation like the one above quickly reveals the pre-determined nature of MNE. If anything, MNE suggests the flow of information in the system more than it reveals evolution-like traits.
+
+While the inclusion of more seed compounds leads to a more extensive network, the richness of the seed set and clustering of the seeds in specific map regions limit the expansion to a few iterations. The first iteration introduces the largest change in the network, and the total difference in numbers between the scope (blue dots) and seed size is small. Additionally, since the seed sets are randomly generated, some seeds fall outside the reconstructed network. This is illustrated in Figure \ref{fam4arc_metnetexp_0106}, and more clearly in Appendix Figure \ref{fam4arc_metnet_plus_seedset}, where several red dots representing the seed compounds are not connected to any of the gray lines that denote the network reactions. The seed set size used for expansion will always be equal to or smaller than the initially generated seed set size, so the ratio of the two will range between 0 and 1. We use this ratio instead of the initial or expansion-used seed set sizes in our MNE statistical analysis. A straightforward way to compensate for this lack of overlap between the seed set and the reconstructed metabolic network, while increasing the spread of the seeds in the network is to select a set number of compounds from each KEGG module. However, it may be more beneficial to manually select prebiotic or at least lower complexity compounds from a variety of molecular classes. In this way, the seeds will be more evenly distributed throughout the network, and the expansion will be more extensive, potentially with more iterations.
+
+For a given seed set, the seed set size ratio increases rapidly with smaller genome sizes but soon reaches a plateau (Fig. \ref{overview_ancient}A). As demonstrated in Figures \ref{fam4arc_metnet} and \ref{phy4arc_metnet} - \ref{gen4arc_metnet}, the reconstructed metabolic networks of LACA across various taxonomic levels show minimal variation, despite substantial increases in genome size for the respective LACA genomes. The saturation curve suggests that the metabolic network size stabilizes once a certain genome size is reached, indicating that the maximum number of enzymes present in the inferred genomes and available for inclusion in the network has been attained. 
+
+For the various seed sets, the seed set size ratio decreases as the total seed set size increases (Fig. \ref{overview_ancient}A), implying that compounds of higher complexity are progressively less integrated into the expansion. In other words, the larger the seed set, the more seeds fall outside the network. Both the seed set size and the scope size (Fig. \ref{overview_ancient}B) of an expansion show a similar correlation with genome size, as demonstrated by their linear relationship (Fig. \ref{overview_ancient}C): larger seed sets produce larger scope sizes. The scope size distribution (Fig. \ref{overview_ancient}D) 
+
+need to comment on bimodality, symmetry, or skewed towards smaller values. need to comment on how that is correlated to seed set size rather than initial genome size (themaybe a better metric would be met. network size)
+need to comment on how the scope size increases drastically when going from the 40 to the 60\% complexity seed set, but then kind of stagnates. 
+
+and then I need to comment on the same for the extant genomes.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.98\textwidth]{overview_expansion/overview_ancient_final.pdf}
-    \caption{}
+    \caption{Overview of the MNE for all inferred ancient metabolisms. (A) shows the microorganisms' inferred genome size as a function of the normalized seed set size for each seed set. The number of protein-encoding genes is used as a proxy for genome size, while the normalized seed set size reflects the number of seed compounds found in the network divided by the initial number of seeds. (B) displays genome size as a function of scope size for each seed set, with scope size defined as the number of compounds in the network after expansion. (C) illustrates the normalized seed set size as a function of scope size for each seed set. (D) presents the scope size distribution for each seed set in the form of a violin plot.}
     \label{overview_ancient}
-\end{figure}   
+\end{figure} 
 
+It may be beneficial to explore the minimal seed sets of the reconstructed networks. According to Handorf et al. (2008) \cite{handorf2008}, the minimal seed set of an entire metabolic network is the smallest set of compounds capable of producing all its metabolites. This approach has shown that minimal seed sets reflect the nutritional requirements of the microorganisms under analysis. In a reverse ecology concept, as Borenstein et al. (2008) \cite{borenstein2008} have demonstrated, this approach can predict the nutrients a microorganism can acquire from the environment. Therefore, when applied to the hypothetical reconstructed metabolisms of ancient microorganisms, this method could provide insights into the environmental conditions in which they could have thrived.
+
+
+\vspace{0.5cm}
+\textbf{MNE of Extant Metabolisms}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.98\textwidth]{overview_expansion/overview_extant_final.pdf}
-    \caption{}
+    \caption{Overview of the MNE for all extant metabolisms. (A) shows the microorganisms' inferred genome size as a function of the normalized seed set size for each seed set. The number of protein-encoding genes is used as a proxy for genome size, while the normalized seed set size reflects the number of seed compounds found in the network divided by the initial number of seeds. (B) displays genome size as a function of scope size for each seed set, with scope size defined as the number of compounds in the network after expansion. (C) illustrates the normalized seed set size as a function of scope size for each seed set. (D) presents the scope size distribution for each seed set in the form of a violin plot.}
     \label{overview_extant}
 \end{figure}   
+
+These two show scope size as a function of distance from tree root. Maybe it'd be better to remove these two actually.
 
 \begin{figure}[H]
     \centering
@@ -137,13 +157,3 @@ No other significant differences or patterns are observable, so it may be benefi
     \caption{}
     \label{fam_scopesize}
 \end{figure}   
-
-
-
-\begin{itemize}
-    \item For inferred ancient genomes. Explaining main figure.
-        \item Network patchiness (not all seeds being present in network, view iterations, low expansion)
-        \item Maybe a figure to present patchiness of an N0 network? See how well seeds are "represented" there 
-    \item Additional figure: EC values vs root distance (how it changes)
-    \item For extant genomes. Explaining main figure.
-\end{itemize}

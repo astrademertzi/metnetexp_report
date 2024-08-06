@@ -1,0 +1,100 @@
+﻿compound_id,description
+C00001,H2O; Water
+C00080,H+; Hydron
+Z00029,Mg
+C00009,Orthophosphate; Phosphate; Phosphoric acid; Orthophosphoric acid
+C00011,CO2; Carbon dioxide
+Z00030,Mn
+Z00015,Fe
+C00014,Ammonia; NH3
+Z00054,Zn
+C00026,2-Oxoglutarate; Oxoglutaric acid; 2-Ketoglutaric acid; alpha-Ketoglutaric acid
+C00022,Pyruvate; Pyruvic acid; 2-Oxopropanoate; 2-Oxopropanoic acid; Pyroracemic acid
+Z00069,Diavalent Metal
+C00028,Acceptor; Hydrogen-acceptor; A; Oxidized donor
+C00030,Reduced acceptor; AH2; Hydrogen-donor; Donor
+Z00055,Ca
+Z00063,Generic FeS
+Z00002,4Fe4S
+C00042,Succinate; Succinic acid; Butanedionic acid; Ethylenesuccinic acid
+Z00006,Co
+C00033,Acetate; Acetic acid; Ethanoic acid
+Z00001,2Fe2S
+Z00070,Cu
+C00058,Formate; Methanoic acid; Formic acid
+C00048,Glyoxylate; Glyoxalate; Glyoxylic acid
+Z00034,Ni
+C00036,Oxaloacetate; Oxalacetic acid; Oxaloacetic acid; 2-Oxobutanedioic acid; 2-Oxosuccinic acid; keto-Oxaloacetate
+Z00064,Mo
+C00283,Hydrogen sulfide; Hydrogen-sulfide; H2S; Sulfide
+C00161,2-Oxo acid; 2-Oxocarboxylate; 2-Oxocarboxylic acid; 2-Oxo carboxylate
+C00288,HCO3-; Hydrogencarbonate; Bicarbonate; Hydrogen carbonate; Acid carbonate
+C00071,Aldehyde; RCHO
+C00069,Alcohol
+C00282,Hydrogen; H2
+C00122,Fumarate; Fumaric acid; trans-Butenedioic acid
+C14818,Fe2+; Fe(II); Ferrous ion; Iron(2+)
+C00149,(S)-Malate; L-Malate; L-Apple acid; L-Malic acid; L-2-Hydroxybutanedioic acid; Malate; Malic acid
+Z00067,3Fe4S
+Z00053,W
+C00205,hn; Light; Photon; hnu
+Z00060,Monovalent Metal
+C01335,ROH
+C17023,Sulfur donor; S-donor
+C00160,Glycolate; Glycolic acid; Hydroxyacetic acid
+C00209,Oxalate; Oxalic acid; Ethanedioic acid
+C00311,"Isocitrate; Isocitric acid; 1-Hydroxytricarballylic acid; 1-Hydroxypropane-1,2,3-tricarboxylic acid"
+Z00033,Na
+C01528,Hydrogen selenide; Selenide
+C00383,Malonate; Malonic acid; Propanedioic acid
+C00012,Peptide
+Z00062,V
+C00305,Magnesium cation; Mg2+; Magnesium(2+); Magnesium ion
+C00417,cis-Aconitate; cis-Aconitic acid
+C14819,Fe3+; Fe(III); Ferric ion; Iron(3+)
+Z00020,Generic FeS Cluster
+C00023,Iron
+C01330,Sodium cation; Na+; Sodium(1+); Sodium ion
+C01732,Mesaconate; 2-Methylfumarate; Mesaconic acid; Methylfumaric acid; (E)-2-Methyl-2-butenedioic acid
+C06232,Molybdate
+C00175,Cobalt ion; Cobalt(2+); Co2+; Co(II)
+C19609,Nickel(2+); Ni2+; Ni(II)
+C20679,Tungstate; Tungstic acid
+C22155,[Fe-S] cluster scaffold protein
+C00038,Zinc cation; Zn2+; Zn(II); Zinc ion
+C00070,Copper
+C00238,Potassium cation; K+; Potassium(1+); Potassium ion
+C01127,4-Hydroxy-2-oxoglutarate; 4-Hydroxy-2-oxoglutaric acid
+C00150,Molybdenum
+C19806,"Propane-1,2,3-tricarboxylate; Tricarballylate"
+C00034,Manganese
+C00050,Metal
+C00037,Glycine
+C00213,Sarcosine
+C00041,L-Alanine
+C00186,L-Lactate
+C00099,Beta-alanine
+C02356,S-2-aminobutanoate
+C00334,4-aminobutanoate
+C05984,a-hydroxybutanoate
+C00049,L-Aspartate
+C00025,L-Glutamate
+C00163,Propionate
+C00086,Urea
+C00065,L-Serine
+C00188,L-Threonine
+C00183,L-Valine
+C00073,L-Methionine
+C00407,L-Isoleucine
+C00123,L-Leucine
+C00218,Methylamine
+C00797,Ethylamine
+C01678,Cysteamine
+C00189,Ethanolamine
+C00147,Adenine
+C00067,Formaldehyde
+C01326,Hydrogen cyanide
+C00097,L-Cysteine
+C00178,Thymine
+C00106,Uracil
+C00380,Cytocine
