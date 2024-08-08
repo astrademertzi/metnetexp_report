@@ -1,20 +1,45 @@
 \section{Introduction}
 \normalsize
-Outline
-\begin{itemize}
-    \item OF, OFs, orthologs, paralogs, etc
-    \item evolutionary models: DTL vs DLC
-    \item HMMs \& advantage of position-independent evolutionary models
-    \item Metabolic network expansion -> more? what is it, what are the models, etc.
-    \item Metabolic network expansion traditionally used to infer evolution of metabolism. Study objective. Essentially connecting phylogenetic analysis with met. net. exp.
-\end{itemize}
-
 
 \subsection*{A surge in available data}
-\addcontentsline{toc}{subsubsection}{A surge in available data}
+\addcontentsline{toc}{subsection}{A surge in available data}
 
 The advancement of sequencing technologies and the development of state-of-the-art bioinformatics tools have enabled a rapid increase not only in the number of sequenced genomes, but also in the sampled prokaryotic diversity, expanding our view of the tree of life, and especially that of the archaeal branch. This surge in data availability can readily improve the resolution of modern phylogenetic relationships, resolve further their deep evolutionary history, and provide more accurate inference of ancestral gene contents \cite{tahon2021}. The first release of GTDB back in 2019, R89, contained 145,904 genomes organized into 24,706 species clusters, while its latest, R220 release this April, has grown to contain 596,859 genomes organized into 113,104 species clusters \cite{parks2018, parks2020, parks2022, rinke2021}; an increase of more than 300\% in just five years.
 
 To date, several studies have investigated the nature and physiology of LACA, LBCA, and LUCA (Last Universal Common Ancestor) through gene content estimation \cite{williams2017, xavier2021, moody2024, coleman2021}, with datasets of various sizes and microbial physiologies, originating from a number of different databases. Usually these datasets are optimized for tree rooting and take into account taxon sampling evenness, yet it is still unclear how the incorporation of more species or other species belonging to the same higher taxonomic level will affect the analysis.
  
-Moreover, GTDB, in its effort to standardize prokaryotic taxonomy, employs rank-normalization for the classification of microorganisms at all taxonomic levels \cite{parks2018}, which leads to periodic reclassification and renaming of taxa in the database. The change in nomenclature and the constant taxonomic revisions create confusion even when referencing taxa from the same database, and hinder the refinement of deep phylogenetic relationships \cite{tahon2021}. Especially in an era of exponential growth in genomic data, there is a pressing need to determine the robustness of standard methodologies and result stability. 
+Moreover, GTDB, in its effort to standardize prokaryotic taxonomy, employs rank-normalization for the classification of microorganisms at all taxonomic levels \cite{parks2018}, which leads to periodic reclassification and renaming of taxa in the database. The change in nomenclature and the constant taxonomic revisions create confusion even when referencing taxa from the same database, and hinder the refinement of deep phylogenetic relationships \cite{tahon2021}. Especially in an era of exponential growth in genomic data, there is a pressing need to determine the robustness of standard methodologies and result stability.
+
+
+\subsection*{A misconception about Metabolic Network Expansion}
+\addcontentsline{toc}{subsection}{A misconception about Metabolic Network Expansion}
+
+Metabolic Network Expansion (MNE) is a heuristic developed by Ebenhoh et al. (2004) \cite{ebenhoh2004} focused on analyzing the topology of large-scale metabolic systems. Since its inception, MNE has found many applications, including the investigation of the biosynthetic potential of a metabolite \cite{handorf2005, ebenhoh2006a}, the study of symbiotic relationships and interactions within microbial communities \cite{christian2007, frioux2018}, and the characterization of the minimal nutritional requirements of diverse microorganisms \cite{handorf2008,borenstein2008}.
+
+While MNE does not account for evolutionary constraints, and has not been used within a phylogenetic framework, the expansion has been suggested to display characteristics relevant to the evolution of metabolism \cite{handorf2005, ebenhoh2006a, kreimer2008} by revealing the \textit{'temporal order of the emergence of metabolic pathways'} \cite{handorf2005}. Given that these claims are based on the sequence of reaction additions during the expansion, which are inherently dependent on the network seed compounds, it is crucial to reexamine the nature of the MNE algorithm and explore the evolution of metabolism from a phylogenetic perspective.
+
+
+\subsection*{Brief Explanations}
+\addcontentsline{toc}{subsection}{Brief Explanations}
+
+\subsubsection*{The Advantage of OrthoFinder, and a dive into Orthology.}
+\addcontentsline{toc}{subsubsection}{The Advantage of OrthoFinder, and a dive into Orthology}
+This is going to be a couple of paragraphs explaining OrthoFinder, OrthoGroups, Orthologs, Paralogs, and how OF works.
+
+\subsubsection*{DCL vs. DTL.}
+\addcontentsline{toc}{subsubsection}{DCL vs. DTL}
+This is going to be a paragraph or two explaining what DCL and DTL are, and what are their differences.
+
+
+\subsubsection*{Position Independent vs. Position Dependent Models.}
+\addcontentsline{toc}{subsubsection}{Position Independent vs. Position Dependent Models}
+This is going to be a paragraph or two explaining what position independent and position dependent models are, and what the advantages of position independent models are.
+
+
+\subsubsection*{How Metabolic Network Expansion Works.}
+\addcontentsline{toc}{subsubsection}{How Metabolic Network Expansion Works}
+This is going to be a paragraph or two explaining how MNE works, specifically the model we use in this study.
+
+%The method aims to reconstruct Biochemical Reaction Networks starting from a set of initial "seed" compounds. By strictly utilizing existing enzymatic reaction rules from the KEGG database and the compounds already present in the network, the model expands the network step-by-step till idempotence (no further change). While MNE doesn't account for evolutionary constraints such as protein antiquity or phylogenetic relations, a subsequent publication [2] suggests that the expansion process might exhibit evolution-like features. This claim, however, is based solely on the temporal order of reaction addition to the expanding network. Since this is ultimately dependent both on the initial seed compound and the structural complexity of the sequentially-formed compounds, the reaction addition order could
+%be potentially be described as predetermined.
+%*move this sentence to introduction: Briefly, seed compounds are allowed to react given the reactions in the network, which then produce product compounds. The product compounds are added to the seed set, and the process is repeated until convergence \cite{ebenhoh2004, handorf2005}. 

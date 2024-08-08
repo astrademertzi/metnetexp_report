@@ -41,6 +41,17 @@
 \usepackage[protrusion=true, expansion=true]{microtype}
 
 
+% For table of contents
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\large\bfseries} % Section font size
+\renewcommand{\cftsubsecfont}{\normalsize}   % Subsection font size
+\renewcommand{\cftsubsubsecfont}{\small} % Subsubsection font size
+% Change font size of page numbers in ToC
+\renewcommand{\cftsecpagefont}{\large\bfseries} % Section page number font size
+\renewcommand{\cftsubsecpagefont}{\normalsize}   % Subsection page number font size
+\renewcommand{\cftsubsubsecpagefont}{\small} % Subsubsection page number font size
+
+
 % Bibliography
 \usepackage{bookmark}
 \usepackage[backend=biber, style=nature, sorting=none, doi=false, isbn=false, date=year, url=false]{biblatex}
@@ -84,7 +95,7 @@
 \setstretch{1.15}
 
 \include{content/00_pre/01_Title.tex}
-%\include{content/00_pre/02_Acknowledgement.tex}
+\include{content/00_pre/02_Acknowledgement.tex}
 %\include{content/00_pre/03_Abstract.tex}
 
 \newpage
@@ -95,7 +106,7 @@
 \include{content/01_main/01_Introduction.tex}
 \include{content/01_main/02_Experimental_Methods.tex}
 \include{content/01_main/03_Results_Discussion.tex}
-%\include{content/01_main/04_Conclusions.tex}
+\include{content/01_main/04_Conclusions.tex}
 
 \include{content/02_pubs/02_pubs.tex}
 \include{content/03_post/01_Appendix.tex}

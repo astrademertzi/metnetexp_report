@@ -1,0 +1,13 @@
+Dataset name,Domain,Taxonomic Level,type,Dataset number,Number of species,Number of genes,Number of genes in orthogroups,Number of unassigned genes,Percentage of genes in orthogroups,Percentage of unassigned genes,Number of orthogroups,Number of species-specific orthogroups,Number of genes in species-specific orthogroups,Percentage of genes in species-specific orthogroups,Mean orthogroup size,Median orthogroup size,G50 (assigned genes),G50 (all genes),O50 (assigned genes),O50 (all genes),Number of orthogroups with all species present,Number of single-copy orthogroups
+phy1arc,archaea,phylum,REP,1,21,33353,24259,9094,72.7,27.3,3521,1206,3687,11.1,6.9,3,13,7,534,1025,51,23
+phy4arc,archaea,phylum,HQ,4,16,28817,21228,7589,73.7,26.3,3138,830,2353,8.2,6.8,4,12,7,545,956,147,76
+phy5arc,archaea,phylum,HQ,5,16,30022,22071,7951,73.5,26.5,3285,882,2740,9.1,6.7,4,12,7,564,1010,141,74
+phy6arc,archaea,phylum,HQ,6,16,27856,20472,7384,73.5,26.5,2981,830,2566,9.2,6.9,4,12,7,523,919,157,73
+cla4arc,archaea,class,HQ,4,51,109647,91417,18230,83.4,16.6,7543,2003,5800,5.3,12.1,4,39,28,645,919,86,26
+cla5arc,archaea,class,HQ,5,51,108963,90573,18390,83.1,16.9,7497,2086,6070,5.6,12.1,4,38,27,646,933,69,13
+cla6arc,archaea,class,HQ,6,51,111181,91848,19333,82.6,17.4,7545,2100,6161,5.5,12.2,4,39,27,644,939,68,15
+ord4arc,archaea,order,HQ,4,94,193002,164689,28313,85.3,14.7,10659,2765,7663,4,15.5,4,70,52,634,868,52,8
+fam4arc,archaea,family,HQ,4,206,439674,390032,49642,88.7,11.3,19755,4186,11608,2.6,19.7,4,143,115,688,881,19,0
+gen4arc,archaea,genus,HQ,4,582,1346579,1257520,89059,93.4,6.6,41699,6202,16769,1.2,30.2,4,394,340,789,910,7,0
+phy4bac,bacteria,phylum,HQ,4,150,418332,368185,50147,88,12,18897,4689,14016,3.4,19.5,4,122,96,773,1004,30,1
+cla4bac,bacteria,class,HQ,4,374,1220225,1097205,123020,89.9,10.1,42045,10978,33291,2.7,26.1,4,318,252,838,1055,8,0
