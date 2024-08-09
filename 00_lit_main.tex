@@ -89,14 +89,16 @@
 \graphicspath{{./thesis_pictures/}}
 \addbibresource{bib/references_lib.bib}
 
+
 \begin{document}
+
 \setlength{\parindent}{0.5cm}
 \emergencystretch=1em
 \setstretch{1.15}
 
 \include{content/00_pre/01_Title.tex}
 \include{content/00_pre/02_Acknowledgement.tex}
-%\include{content/00_pre/03_Abstract.tex}
+\include{content/00_pre/03_Abstract.tex}
 
 \newpage
 \tableofcontents
@@ -106,7 +108,9 @@
 \include{content/01_main/01_Introduction.tex}
 \include{content/01_main/02_Experimental_Methods.tex}
 \include{content/01_main/03_Results_Discussion.tex}
-\include{content/01_main/04_Conclusions.tex}
+
+
+%\include{content/01_main/04_Conclusions.tex} conclusions included in previous section to not induce a page break
 
 \include{content/02_pubs/02_pubs.tex}
 \include{content/03_post/01_Appendix.tex}

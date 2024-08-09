@@ -14,34 +14,43 @@ All shown phylogenetic trees have been visualized with Dendroscope \cite{huson20
 \begin{figure}[h!tbp]
     \centering
     \renewcommand{\thefigure}{A\arabic{figure}}
-    \includegraphics[width=0.5\textwidth]{trees/phy1arc}
-    \caption{OrthoFinder-inferred species tree; first analysis.}
-    \label{phylum_trees1}
+    \includegraphics[width=0.95\textwidth]{trees/all_trees.pdf}
+    \caption{Archaea species trees. (A) GTDB-inferred species tree. (B) OrthoFinder-inferred species tree; first analysis. (C) OrthoFinder-inferred species tree; second analysis. (D) OrthoFinder-inferred species tree; third analysis.}
+    \label{phylum_trees_all}
 \end{figure}
 
-\begin{figure}[h!tbp]
-    \centering
-    \renewcommand{\thefigure}{A\arabic{figure}}
-    \includegraphics[width=0.5\textwidth]{trees/phy2arc}
-    \caption{OrthoFinder-inferred species tree; second analysis.}
-    \label{phylum_trees2}
-\end{figure}
 
-\begin{figure}[h!tbp]
-    \centering
-    \renewcommand{\thefigure}{A\arabic{figure}}
-    \includegraphics[width=0.6\textwidth]{trees/phy3arc}
-    \caption{OrthoFinder-inferred species tree; third analysis.}
-    \label{phylum_trees3}
-\end{figure}
+% \begin{figure}[h!tbp]
+%     \centering
+%     \renewcommand{\thefigure}{A\arabic{figure}}
+%     \includegraphics[width=0.5\textwidth]{trees/phy1arc}
+%     \caption{OrthoFinder-inferred species tree; first analysis.}
+%     \label{phylum_trees1}
+% \end{figure}
 
-\begin{figure}[h!tbp]
-    \centering
-    \renewcommand{\thefigure}{A\arabic{figure}}
-    \includegraphics[width=0.6\textwidth]{trees/gtdb_tree}
-    \caption{GTDB archaea species tree.}
-    \label{gtdb_tree}
-\end{figure}
+% \begin{figure}[h!tbp]
+%     \centering
+%     \renewcommand{\thefigure}{A\arabic{figure}}
+%     \includegraphics[width=0.5\textwidth]{trees/phy2arc}
+%     \caption{OrthoFinder-inferred species tree; second analysis.}
+%     \label{phylum_trees2}
+% \end{figure}
+
+% \begin{figure}[h!tbp]
+%     \centering
+%     \renewcommand{\thefigure}{A\arabic{figure}}
+%     \includegraphics[width=0.6\textwidth]{trees/phy3arc}
+%     \caption{OrthoFinder-inferred species tree; third analysis.}
+%     \label{phylum_trees3}
+% \end{figure}
+
+% \begin{figure}[h!tbp]
+%     \centering
+%     \renewcommand{\thefigure}{A\arabic{figure}}
+%     \includegraphics[width=0.6\textwidth]{trees/gtdb_tree}
+%     \caption{GTDB archaea species tree.}
+%     \label{gtdb_tree}
+% \end{figure}
 
 \newpage
 \subsection*{A2. Metabolic Network Reconstruction of LACA for all Archaea Datasets}
@@ -82,6 +91,13 @@ All shown phylogenetic trees have been visualized with Dendroscope \cite{huson20
     \caption{Reconstruction of LACA's metabolic network from extant life, for the family-level archaea dataset. In black: enzymes and metabolic pathways that were inferred to be present in LACA. Red dots: seed compounds of 60\% completeness seed set.}
     \label{fam4arc_metnet_plus_seedset}
 \end{figure}   
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.98\textwidth]{metabolism/fam_N0_exp1.pdf}
+    \caption{Expansion of the archaea family-level reconstructed network of LACA, with the 100\% complexity seed set. In black: enzymes and metabolic pathways that were inferred to be present in LACA, which are not part of the expansion. In gray: enzymes and metabolic pathways of the expanded network. Red dots: respective seed set compounds. Blue dots: scope compounds after network expansion.}    
+    \label{fam4arc_metnetexp_1}
+\end{figure}
 
 \newpage
 \textbf{EC number evolution in LACA.}
@@ -145,56 +161,56 @@ All shown phylogenetic trees have been visualized with Dendroscope \cite{huson20
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{scopesize_vs_disttoroot/gfm_ss_rootdist}
-    \caption{Goldford + meteoritic soup}
+    \caption{Scope size as a function of distance to root for the meteorite soup seed set. In green: expansion on inferred ancient metabolic networks. In pink: expansion on extant metabolic networks. Each panel represents a different taxonomic level dataset.}
     \label{gfm_scopesize}
 \end{figure}   
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{scopesize_vs_disttoroot/gfsd_ss_rootdist.pdf}
-    \caption{Goldford + spark-discharge}
+    \caption{Scope size as a function of distance to root for the spark-discharge seed set. In green: expansion on inferred ancient metabolic networks. In pink: expansion on extant metabolic networks. Each panel represents a different taxonomic level dataset.}
     \label{gfsd_scopesize}
 \end{figure}   
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{scopesize_vs_disttoroot/0.1_ss_rootdist.pdf}
-    \caption{10\% complexity}
+    \caption{Scope size as a function of distance to root for the 10\% complexity seed set. In green: expansion on inferred ancient metabolic networks. In pink: expansion on extant metabolic networks. Each panel represents a different taxonomic level dataset.}
     \label{0.1_scopesize}
 \end{figure}   
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{scopesize_vs_disttoroot/0.2_ss_rootdist.pdf}
-    \caption{20\% complexity}
+    \caption{Scope size as a function of distance to root for the 20\% complexity seed set. In green: expansion on inferred ancient metabolic networks. In pink: expansion on extant metabolic networks. Each panel represents a different taxonomic level dataset.}
     \label{0.2_scopesize}
 \end{figure}   
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{scopesize_vs_disttoroot/0.4_ss_rootdist.pdf}
-    \caption{40\% complexity}
+    \caption{Scope size as a function of distance to root for the 40\% complexity seed set. In green: expansion on inferred ancient metabolic networks. In pink: expansion on extant metabolic networks. Each panel represents a different taxonomic level dataset.}
     \label{0.4_scopesize}
 \end{figure}   
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{scopesize_vs_disttoroot/0.6_ss_rootdist.pdf}
-    \caption{60\% complexity}
+    \caption{Scope size as a function of distance to root for the 60\% complexity seed set. In green: expansion on inferred ancient metabolic networks. In pink: expansion on extant metabolic networks. Each panel represents a different taxonomic level dataset.}
     \label{0.6_scopesize}
 \end{figure}   
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{scopesize_vs_disttoroot/0.8_ss_rootdist.pdf}
-    \caption{80\% complexity}
+    \caption{Scope size as a function of distance to root for the 80\% complexity seed set. In green: expansion on inferred ancient metabolic networks. In pink: expansion on extant metabolic networks. Each panel represents a different taxonomic level dataset.}
     \label{0.8_scopesize}
 \end{figure}   
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{scopesize_vs_disttoroot/1_ss_rootdist.pdf}
-    \caption{100\% complexity}
+    \caption{Scope size as a function of distance to root for the 100\% complexity seed set. In green: expansion on inferred ancient metabolic networks. In pink: expansion on extant metabolic networks. Each panel represents a different taxonomic level dataset.}
     \label{1_scopesize}
 \end{figure}   
 
